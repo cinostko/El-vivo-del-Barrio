@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class move : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public float velocidad = 5f;
+    
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
-        
+        float horizontal = Input.GetAxis("Horizontal");
+        float vertical = Input.GetAxis("Vertical");
+
+        transform.position += new Vector3(horizontal, vertical, 0) * Time.deltaTime * velocidad;
+
+
     }
 }
