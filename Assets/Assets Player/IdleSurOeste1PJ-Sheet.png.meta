@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: d7e78b315e9376d4e811ba329d86e628
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2484211126956626954
+    second: IdleSurOeste1PJ-Sheet_0
+  - first:
+      213: 347058181182269357
+    second: IdleSurOeste1PJ-Sheet_1
+  - first:
+      213: 416240301497911133
+    second: IdleSurOeste1PJ-Sheet_2
+  - first:
+      213: 4996693234701011491
+    second: IdleSurOeste1PJ-Sheet_3
+  - first:
+      213: 8151426023093674053
+    second: IdleSurOeste1PJ-Sheet_4
+  - first:
+      213: -2537819461914996624
+    second: IdleSurOeste1PJ-Sheet_5
+  - first:
+      213: -1227037947107915978
+    second: IdleSurOeste1PJ-Sheet_6
+  - first:
+      213: 5932024378186400187
+    second: IdleSurOeste1PJ-Sheet_7
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IdleSurOeste1PJ-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 13
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb6da6542f468dd0800000000000000
+      internalID: -2484211126956626954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleSurOeste1PJ-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 13
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da723c5b39ff0d400800000000000000
+      internalID: 347058181182269357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleSurOeste1PJ-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 13
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d570cff4958c6c500800000000000000
+      internalID: 416240301497911133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleSurOeste1PJ-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 13
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a83f9f502d75540800000000000000
+      internalID: 4996693234701011491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleSurOeste1PJ-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 13
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540af57a7ceaf1170800000000000000
+      internalID: 8151426023093674053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleSurOeste1PJ-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 13
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070db7435aad7ccd0800000000000000
+      internalID: -2537819461914996624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleSurOeste1PJ-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 13
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63745bcfc7fa8fee0800000000000000
+      internalID: -1227037947107915978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleSurOeste1PJ-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 13
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb102c42eb8c25250800000000000000
+      internalID: 5932024378186400187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f7375fb26d666c0448a8b855e7f4736c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      IdleSurOeste1PJ-Sheet_0: -2484211126956626954
+      IdleSurOeste1PJ-Sheet_1: 347058181182269357
+      IdleSurOeste1PJ-Sheet_2: 416240301497911133
+      IdleSurOeste1PJ-Sheet_3: 4996693234701011491
+      IdleSurOeste1PJ-Sheet_4: 8151426023093674053
+      IdleSurOeste1PJ-Sheet_5: -2537819461914996624
+      IdleSurOeste1PJ-Sheet_6: -1227037947107915978
+      IdleSurOeste1PJ-Sheet_7: 5932024378186400187
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

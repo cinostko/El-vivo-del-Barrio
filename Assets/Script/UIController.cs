@@ -10,6 +10,7 @@ public class UIController : MonoBehaviour
     private static UIController instance2;
     [SerializeField] private TextMeshProUGUI lifetext;
     [SerializeField] private Image lifeBarImage;
+    [SerializeField] private Image furiaBarImage;
 
     public static UIController Instance //PREGUNTAR SOBRE LA PROPIEDAD Y ESTATICO. 
     {
@@ -31,6 +32,11 @@ public class UIController : MonoBehaviour
     public void UpdateLifeBar(float life, float maxLife)
     {
         lifeBarImage.fillAmount = life / maxLife;
+    }
+
+    public void UpdateFuriaBar(float furia, float maxFuria)
+    {
+        furiaBarImage.fillAmount = furia / maxFuria;
     }
 
 
