@@ -41,10 +41,6 @@ public class MeleeAtack : MonoBehaviour
         Gizmos.DrawWireSphere(puntoAtq.position, radioAtq);
     }
 
-
-
-
-
     // Start is called before the first frame update
     void Start()
     {
