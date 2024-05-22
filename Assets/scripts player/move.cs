@@ -4,21 +4,54 @@ using UnityEngine;
 
 public class move : MonoBehaviour
 {
-    public float velocidad = 5f;
-    
-    void Start()
+
+    [SerializeField] private float speed;
+    private Rigidbody2D rb2d;
+    private Vector2 direction;
+    private Camera cam;
+
+    public Vector2 Direction
     {
-        
+        get
+        {
+            return direction;
+        }
     }
 
-   
+    private void Awake()
+    {
+        cam = GameObject.Find("Main Camera").GetComponent<Camera>();
+        rb2d = GetComponent<Rigidbody2D>();
+        direction = Vector2.up;
+    }
+
     void Update()
     {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+        Rotate();
+        Move();
+    }
 
-        transform.position += new Vector3(horizontal, vertical, 0) * Time.deltaTime * velocidad;
-
+    void Rotate()
+    {
+        Vector2 mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 playerPosition = transform.position;
+        Vector2 direction = mousePosition - playerPosition;
+        direction = direction.normalized;
+        transform.up = direction;
 
     }
+
+    void Move()
+    {
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
+
+        if (horizontal != 0f || vertical != 0f)
+        {
+            direction = new Vector2(horizontal, vertical).normalized;
+        }
+
+        rb2d.velocity = new Vector2(horizontal, vertical).normalized * speed;
+    }
+
 }
