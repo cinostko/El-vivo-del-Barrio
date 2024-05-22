@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class disparo : MonoBehaviour
 {
-    [SerializeField] private proyectil proyectilprefab;
+    [SerializeField] private proyectil projectilprefab;
     [SerializeField] private Transform shootposition;
     private Camera cam;
     void Start()
@@ -21,8 +21,9 @@ public class disparo : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
 
-            proyectil proyectile = Instantiate(proyectilprefab, shootposition.position, transform.rotation);
+            proyectil proyectile = Instantiate(projectilprefab, shootposition.position, transform.rotation);
             proyectile.launchProjectile(transform.up);
         }
+
     }
 }

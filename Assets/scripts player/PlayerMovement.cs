@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class move : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
 
     [SerializeField] private float speed;
@@ -53,5 +53,4 @@ public class move : MonoBehaviour
 
         rb2d.velocity = new Vector2(horizontal, vertical).normalized * speed;
     }
-
 }
