@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class UIController : MonoBehaviour
 {
     private static UIController instance;
+    private static UIController instance2;
     [SerializeField] private TextMeshProUGUI lifetext;
     [SerializeField] private Image lifeBarImage;
 

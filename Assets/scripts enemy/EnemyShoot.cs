@@ -19,22 +19,27 @@ public class EnemyShoot : MonoBehaviour
 
     void Disparo()
     {
-        if (Vector2.Distance(objetivoTransform.position, transform.position) < DistanciaDisparo)
-        {
-            shootTimer += Time.deltaTime;
+        //if (objetivoTransform.transform == null) { return; }
+        
 
-            if (shootTimer >= 0.5f && municion >=1) 
+
+            if (Vector2.Distance(objetivoTransform.position, transform.position) < DistanciaDisparo)
             {
-                Vector2 direccion = objetivoTransform.position - transform.position;
-                direccion = direccion.normalized;
-                GameObject obj = Instantiate(bulletPrefab);
-                obj.transform.position = transform.position;
-                obj.GetComponent<BulletMovement>().Direccion(direccion);
-                shootTimer = 0;
-                municion -= 1;
-            }
+                shootTimer += Time.deltaTime;
 
-        }
+                if (shootTimer >= 0.5f && municion >= 1)
+                {
+                    Vector2 direccion = objetivoTransform.position - transform.position;
+                    direccion = direccion.normalized;
+                    GameObject obj = Instantiate(bulletPrefab);
+                    obj.transform.position = transform.position;
+                    obj.GetComponent<BulletMovement>().Direccion(direccion);
+                    shootTimer = 0;
+                    municion -= 1;
+                }
+
+            }
+        
     }
 
 

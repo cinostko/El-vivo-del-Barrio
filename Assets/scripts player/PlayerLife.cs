@@ -27,7 +27,9 @@ public class PlayerLife : MonoBehaviour
         {
             life = maxLife;
         }
-                        
+
+        UIController.Instance.UpdateLifeBar(life, maxLife);
+        UIController.Instance.UpdateLifeText(life);
         if (life <= 0)
         {
             Destroy(gameObject);
@@ -41,7 +43,16 @@ public class PlayerLife : MonoBehaviour
             Destroy(collision.gameObject);
             CambioVida(2);
         }
+
+        if (collision.CompareTag("BalaEnemigo"))
+        {
+            Destroy(collision.gameObject);
+            CambioVida(-1);
+
+        }
     }
+
+ 
 
 
 
