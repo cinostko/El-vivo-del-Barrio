@@ -9,6 +9,7 @@ public class UIController : MonoBehaviour
     private static UIController instance;
     private static UIController instance2;
     [SerializeField] private TextMeshProUGUI lifetext;
+    [SerializeField] private TextMeshProUGUI municiontext;
     [SerializeField] private Image lifeBarImage;
     [SerializeField] private Image furiaBarImage;
 
@@ -37,6 +38,11 @@ public class UIController : MonoBehaviour
     public void UpdateFuriaBar(float furia, float maxFuria)
     {
         furiaBarImage.fillAmount = furia / maxFuria;
+    }
+
+    public void UpdateMunicion(int value)
+    {
+        municiontext.text = $"Municion : {value}";
     }
 
 

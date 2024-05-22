@@ -18,7 +18,7 @@ public class EnemyLife : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("PlayerBullet"))
+        if (collision.CompareTag("PlayerBullet"))
         {
             Destroy(collision.gameObject);
             VidaEnemigo(-1);

@@ -28,28 +28,28 @@ public class PlaverMovement : MonoBehaviour
 
     void Update()
     {
-        Rotate();
+        //Rotate();
         Move();
         Animation();
     }
 
-    void Rotate()
-    {
-        Vector2 mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 playerPosition = transform.position;
-        Vector2 direction = mousePosition - playerPosition;
-        direction = direction.normalized;
-        transform.up = direction;
+    //void Rotate()
+    //{
+    //    Vector2 mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
+    //    Vector2 playerPosition = transform.position;
+    //    Vector2 direction = mousePosition - playerPosition;
+    //    direction = direction.normalized;
+    //    //transform.up = direction;
 
-    }
+    //}
 
     void Move()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
-        //if (horizontal > 0) transform.localScale = new Vector2(1, 1);
-        //else if (horizontal < 0) transform.localScale = new Vector2(-1, 1);
+        if (horizontal > 0) transform.localScale = new Vector2(1, 1);
+        else if (horizontal < 0) transform.localScale = new Vector2(-1, 1);
 
         if (horizontal != 0f || vertical != 0f)
         {
