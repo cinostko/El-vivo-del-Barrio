@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-<<<<<<< HEAD
+
 public class disparo : MonoBehaviour
 {
     [SerializeField] private proyectil proyectilprefab;
@@ -38,7 +38,7 @@ public class disparo : MonoBehaviour
         UIController.Instance.UpdateMunicion(municion);
     }
 }
-=======
+
 //public class disparo : MonoBehaviour
 //{
 //    [SerializeField] private proyectil projectilprefab;
@@ -64,4 +64,4 @@ public class disparo : MonoBehaviour
 
 //    }
 //}
->>>>>>> 72d73263a4139271480a836978e9be4ef7ec14b0
+
