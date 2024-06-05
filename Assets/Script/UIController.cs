@@ -12,7 +12,7 @@ public class UIController : MonoBehaviour
     [SerializeField] private TextMeshProUGUI municiontext;
     [SerializeField] private Image lifeBarImage;
     [SerializeField] private Image furiaBarImage;
-
+    [SerializeField] private Image CambioArma;
     public static UIController Instance //PREGUNTAR SOBRE LA PROPIEDAD Y ESTATICO. 
     {
         get { return instance; }
