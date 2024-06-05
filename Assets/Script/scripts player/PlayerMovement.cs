@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb2d;
     private Vector2 direction;
     private Camera cam;
+    [SerializeField] private Animator animator;
 
     public Vector2 Direction
     {
@@ -23,12 +24,14 @@ public class PlayerMovement : MonoBehaviour
         cam = GameObject.Find("Main Camera").GetComponent<Camera>();
         rb2d = GetComponent<Rigidbody2D>();
         direction = Vector2.up;
+        animator = GetComponent<Animator>();
     }
 
     void Update()
     {
         Rotate();
         Move();
+        Animator();
     }
 
     void Rotate()
@@ -37,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
         Vector2 playerPosition = transform.position;
         Vector2 direction = mousePosition - playerPosition;
         direction = direction.normalized;
-        transform.up = direction;
+        //transform.up = direction;
 
     }
 
@@ -46,11 +49,23 @@ public class PlayerMovement : MonoBehaviour
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
+        
+
         if (horizontal != 0f || vertical != 0f)
         {
             direction = new Vector2(horizontal, vertical).normalized;
         }
 
+        if (horizontal > 0) transform.localScale = new Vector2(1, 1);
+        else if (horizontal < 0) transform.localScale = new Vector2(-1, 1);
+
         rb2d.velocity = new Vector2(horizontal, vertical).normalized * speed;
     }
+
+    void Animator()
+    {
+        animator.SetFloat("X", direction.x);
+        animator.SetFloat("Y", direction.y);
+    }
+
 }
