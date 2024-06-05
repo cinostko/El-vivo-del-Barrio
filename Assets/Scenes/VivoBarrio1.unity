@@ -12925,7 +12925,7 @@ MonoBehaviour:
   m_ShowCameraFrustum: 1
   m_IgnoreTimeScale: 0
   m_WorldUpOverride: {fileID: 0}
-  m_UpdateMethod: 2
+  m_UpdateMethod: 0
   m_BlendUpdateMethod: 1
   m_DefaultBlend:
     m_Style: 1
@@ -14264,7 +14264,7 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 10
+  m_Priority: 1
   m_StandbyUpdate: 1
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 1460731818}
@@ -14442,6 +14442,7 @@ GameObject:
   - component: {fileID: 1460731825}
   - component: {fileID: 1460731824}
   - component: {fileID: 1460731823}
+  - component: {fileID: 1460731826}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -14659,6 +14660,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   animator: {fileID: 0}
+--- !u!114 &1460731826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460731815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07b6f1110c823744ea600525f2974f3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CamaraApuntado: {fileID: 1297431376}
 --- !u!1 &1473145324
 GameObject:
   m_ObjectHideFlags: 0
