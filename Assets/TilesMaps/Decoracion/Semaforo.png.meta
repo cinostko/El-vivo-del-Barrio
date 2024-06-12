@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 53df9b3eb872b9b489df1738864a0357
+guid: e3581dcf006f365429cb18d007df6814
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5735202633786581533
-    second: VFX_KO-Sheet_0
-  - first:
-      213: -1625501643092546413
-    second: VFX_KO-Sheet_1
-  - first:
-      213: 7067669250534261524
-    second: VFX_KO-Sheet_2
-  - first:
-      213: -7698808793348970117
-    second: VFX_KO-Sheet_3
+      213: -608174100021711352
+    second: Semaforo_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -107,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: VFX_KO-Sheet_0
+      name: Semaforo_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 8
-        width: 76
-        height: 18
+        x: 8
+        y: 0
+        width: 100
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,71 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ed144a47977860b0800000000000000
-      internalID: -5735202633786581533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VFX_KO-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 8
-        width: 117
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 39ca7ad2ede0179e0800000000000000
-      internalID: -1625501643092546413
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VFX_KO-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 243
-        y: 13
-        width: 38
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 413cb0cbcb7651260800000000000000
-      internalID: 7067669250534261524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: VFX_KO-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 299
-        y: 10
-        width: 80
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b79e7c64136582590800000000000000
-      internalID: -7698808793348970117
+      spriteID: 80eec96d0e45f87f0800000000000000
+      internalID: -608174100021711352
       vertices: []
       indices: 
       edges: []
@@ -200,11 +128,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      VFX_KO-Sheet_0: -5735202633786581533
-      VFX_KO-Sheet_1: -1625501643092546413
-      VFX_KO-Sheet_2: 7067669250534261524
-      VFX_KO-Sheet_3: -7698808793348970117
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

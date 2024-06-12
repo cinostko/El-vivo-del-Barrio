@@ -296,7 +296,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PJOESTEIDLE-Sheet_0: -3945632317017423488
+      PJOESTEIDLE-Sheet_1: -6256450972551034252
+      PJOESTEIDLE-Sheet_2: 6264182101449004
+      PJOESTEIDLE-Sheet_3: -8048117070870044110
+      PJOESTEIDLE-Sheet_4: 1264377682850188133
+      PJOESTEIDLE-Sheet_5: -7778711189983745876
+      PJOESTEIDLE-Sheet_6: -2015127136796017484
+      PJOESTEIDLE-Sheet_7: -8184568473762801997
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -296,7 +296,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      VFX_HITEFECT-Sheet_0: -5179381038389400292
+      VFX_HITEFECT-Sheet_1: -5650281648731516916
+      VFX_HITEFECT-Sheet_2: -230906448243016406
+      VFX_HITEFECT-Sheet_3: -1844805205658854988
+      VFX_HITEFECT-Sheet_4: -3592690786515070033
+      VFX_HITEFECT-Sheet_5: 3044774439253247770
+      VFX_HITEFECT-Sheet_6: -353943472543250093
+      VFX_HITEFECT-Sheet_7: -5630745142783400415
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

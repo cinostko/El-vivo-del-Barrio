@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: 53d19ec30b2d9da4393c95e7d192dd5f
+guid: 85b80fea92e15d64baaf0684be06aaaf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5357415318206606476
-    second: POLIIDLE-Sheet_0
+      213: 5496745677384523816
+    second: Barra de Vida-Sheet_0
   - first:
-      213: 3471143666304241672
-    second: POLIIDLE-Sheet_1
+      213: -4155758199887407290
+    second: Barra de Vida-Sheet_1
   - first:
-      213: -1392351555466356102
-    second: POLIIDLE-Sheet_2
+      213: -4669216166330796490
+    second: Barra de Vida-Sheet_2
   - first:
-      213: -3760673786430579274
-    second: POLIIDLE-Sheet_3
+      213: 4118321325211142755
+    second: Barra de Vida-Sheet_3
   - first:
-      213: 6067445268523668800
-    second: POLIIDLE-Sheet_4
+      213: -476809073423369533
+    second: Barra de Vida-Sheet_4
   - first:
-      213: -8394846139300811757
-    second: POLIIDLE-Sheet_5
-  - first:
-      213: -2431832111263478034
-    second: POLIIDLE-Sheet_6
-  - first:
-      213: 9202163758999280049
-    second: POLIIDLE-Sheet_7
+      213: 8668201107756779273
+    second: Barra de Vida-Sheet_5
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -119,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: POLIIDLE-Sheet_0
+      name: Barra de Vida-Sheet_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 0
-        width: 22
-        height: 40
+        x: 2
+        y: 4
+        width: 44
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,20 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8ce0fbd8dc595a40800000000000000
-      internalID: 5357415318206606476
+      spriteID: 8202b21121d584c40800000000000000
+      internalID: 5496745677384523816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: POLIIDLE-Sheet_1
+      name: Barra de Vida-Sheet_1
       rect:
         serializedVersion: 2
-        x: 46
-        y: 0
-        width: 22
-        height: 40
+        x: 50
+        y: 4
+        width: 44
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 800596a06cafb2030800000000000000
-      internalID: 3471143666304241672
+      spriteID: 6475b437fe7c356c0800000000000000
+      internalID: -4155758199887407290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: POLIIDLE-Sheet_2
+      name: Barra de Vida-Sheet_2
       rect:
         serializedVersion: 2
-        x: 84
-        y: 0
-        width: 22
-        height: 40
+        x: 98
+        y: 4
+        width: 44
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7a17f523af5dace0800000000000000
-      internalID: -1392351555466356102
+      spriteID: 6367752a2ac933fb0800000000000000
+      internalID: -4669216166330796490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: POLIIDLE-Sheet_3
+      name: Barra de Vida-Sheet_3
       rect:
         serializedVersion: 2
-        x: 122
-        y: 0
-        width: 22
-        height: 40
+        x: 146
+        y: 4
+        width: 44
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6bd9eabbd176fcbc0800000000000000
-      internalID: -3760673786430579274
+      spriteID: 36a402cec67372930800000000000000
+      internalID: 4118321325211142755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: POLIIDLE-Sheet_4
+      name: Barra de Vida-Sheet_4
       rect:
         serializedVersion: 2
-        x: 160
-        y: 0
-        width: 22
-        height: 40
+        x: 194
+        y: 4
+        width: 44
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,20 +211,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0455a743355e33450800000000000000
-      internalID: 6067445268523668800
+      spriteID: 3cabae88ca80269f0800000000000000
+      internalID: -476809073423369533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: POLIIDLE-Sheet_5
+      name: Barra de Vida-Sheet_5
       rect:
         serializedVersion: 2
-        x: 198
-        y: 0
-        width: 22
-        height: 40
+        x: 242
+        y: 4
+        width: 44
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,50 +232,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 31c6ae20ae38f7b80800000000000000
-      internalID: -8394846139300811757
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: POLIIDLE-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 236
-        y: 0
-        width: 22
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eee80c64495604ed0800000000000000
-      internalID: -2431832111263478034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: POLIIDLE-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 274
-        y: 0
-        width: 22
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b910240f27a4bf70800000000000000
-      internalID: 9202163758999280049
+      spriteID: 9078d7d3bf2ab4870800000000000000
+      internalID: 8668201107756779273
       vertices: []
       indices: 
       edges: []
@@ -296,15 +248,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      POLIIDLE-Sheet_0: 5357415318206606476
-      POLIIDLE-Sheet_1: 3471143666304241672
-      POLIIDLE-Sheet_2: -1392351555466356102
-      POLIIDLE-Sheet_3: -3760673786430579274
-      POLIIDLE-Sheet_4: 6067445268523668800
-      POLIIDLE-Sheet_5: -8394846139300811757
-      POLIIDLE-Sheet_6: -2431832111263478034
-      POLIIDLE-Sheet_7: 9202163758999280049
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

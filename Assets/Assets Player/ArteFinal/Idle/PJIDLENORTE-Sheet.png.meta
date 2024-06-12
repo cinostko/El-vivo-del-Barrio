@@ -296,7 +296,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PJIDLENORTE-Sheet_0: 4121371116838480552
+      PJIDLENORTE-Sheet_1: -538083853119665870
+      PJIDLENORTE-Sheet_2: -6638187264374609548
+      PJIDLENORTE-Sheet_3: 3992087654128992851
+      PJIDLENORTE-Sheet_4: -5802074473474216918
+      PJIDLENORTE-Sheet_5: -7185668225476975572
+      PJIDLENORTE-Sheet_6: -6467106802742634589
+      PJIDLENORTE-Sheet_7: -7208493423233903345
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

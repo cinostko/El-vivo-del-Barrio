@@ -296,7 +296,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ENEMIGOIDLESUR-Sheet_0: -3775052598845442866
+      ENEMIGOIDLESUR-Sheet_1: -1886499748040337046
+      ENEMIGOIDLESUR-Sheet_2: -5064351823027196532
+      ENEMIGOIDLESUR-Sheet_3: -660257067637779697
+      ENEMIGOIDLESUR-Sheet_4: 920245882077648101
+      ENEMIGOIDLESUR-Sheet_5: -2799691227759980890
+      ENEMIGOIDLESUR-Sheet_6: -9173891518379204628
+      ENEMIGOIDLESUR-Sheet_7: 6356440281788419327
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 53d19ec30b2d9da4393c95e7d192dd5f
+guid: 9ab2ee506b988f94489c2da1fbef1b5c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5357415318206606476
-    second: POLIIDLE-Sheet_0
+      213: 4164237759226123270
+    second: Lanzables V2_0
   - first:
-      213: 3471143666304241672
-    second: POLIIDLE-Sheet_1
+      213: -8897995365261570961
+    second: Lanzables V2_1
   - first:
-      213: -1392351555466356102
-    second: POLIIDLE-Sheet_2
+      213: 9094567513643976547
+    second: Lanzables V2_2
   - first:
-      213: -3760673786430579274
-    second: POLIIDLE-Sheet_3
+      213: 9106042499329847797
+    second: Lanzables V2_3
   - first:
-      213: 6067445268523668800
-    second: POLIIDLE-Sheet_4
+      213: 2743668465089402431
+    second: Lanzables V2_4
   - first:
-      213: -8394846139300811757
-    second: POLIIDLE-Sheet_5
+      213: 7471628185834602144
+    second: Lanzables V2_5
   - first:
-      213: -2431832111263478034
-    second: POLIIDLE-Sheet_6
+      213: 8559189831281691021
+    second: Lanzables V2_6
   - first:
-      213: 9202163758999280049
-    second: POLIIDLE-Sheet_7
+      213: -4159075461570220481
+    second: Lanzables V2_7
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -119,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: POLIIDLE-Sheet_0
+      name: Lanzables V2_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 11
         y: 0
-        width: 22
-        height: 40
+        width: 11
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,20 +133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8ce0fbd8dc595a40800000000000000
-      internalID: 5357415318206606476
+      spriteID: 60411fecd285ac930800000000000000
+      internalID: 4164237759226123270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: POLIIDLE-Sheet_1
+      name: Lanzables V2_1
       rect:
         serializedVersion: 2
-        x: 46
-        y: 0
-        width: 22
-        height: 40
+        x: 32
+        y: 2
+        width: 31
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,20 +154,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 800596a06cafb2030800000000000000
-      internalID: 3471143666304241672
+      spriteID: f6c0380eb58f38480800000000000000
+      internalID: -8897995365261570961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: POLIIDLE-Sheet_2
+      name: Lanzables V2_2
       rect:
         serializedVersion: 2
-        x: 84
-        y: 0
-        width: 22
-        height: 40
+        x: 67
+        y: 1
+        width: 27
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7a17f523af5dace0800000000000000
-      internalID: -1392351555466356102
+      spriteID: 3678e84f7f4663e70800000000000000
+      internalID: 9094567513643976547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: POLIIDLE-Sheet_3
+      name: Lanzables V2_3
       rect:
         serializedVersion: 2
-        x: 122
-        y: 0
-        width: 22
-        height: 40
+        x: 100
+        y: 3
+        width: 25
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6bd9eabbd176fcbc0800000000000000
-      internalID: -3760673786430579274
+      spriteID: 5f17a2248692f5e70800000000000000
+      internalID: 9106042499329847797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: POLIIDLE-Sheet_4
+      name: Lanzables V2_4
       rect:
         serializedVersion: 2
-        x: 160
-        y: 0
-        width: 22
-        height: 40
+        x: 131
+        y: 8
+        width: 27
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,20 +217,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0455a743355e33450800000000000000
-      internalID: 6067445268523668800
+      spriteID: f365813bee7731620800000000000000
+      internalID: 2743668465089402431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: POLIIDLE-Sheet_5
+      name: Lanzables V2_5
       rect:
         serializedVersion: 2
-        x: 198
-        y: 0
-        width: 22
-        height: 40
+        x: 167
+        y: 9
+        width: 18
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,20 +238,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 31c6ae20ae38f7b80800000000000000
-      internalID: -8394846139300811757
+      spriteID: 0aeb776af3e80b760800000000000000
+      internalID: 7471628185834602144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: POLIIDLE-Sheet_6
+      name: Lanzables V2_6
       rect:
         serializedVersion: 2
-        x: 236
-        y: 0
-        width: 22
-        height: 40
+        x: 200
+        y: 3
+        width: 15
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,20 +259,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eee80c64495604ed0800000000000000
-      internalID: -2431832111263478034
+      spriteID: d894ea29dc958c670800000000000000
+      internalID: 8559189831281691021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: POLIIDLE-Sheet_7
+      name: Lanzables V2_7
       rect:
         serializedVersion: 2
-        x: 274
-        y: 0
-        width: 22
-        height: 40
+        x: 229
+        y: 7
+        width: 21
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,8 +280,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b910240f27a4bf70800000000000000
-      internalID: 9202163758999280049
+      spriteID: f3e201747eef746c0800000000000000
+      internalID: -4159075461570220481
       vertices: []
       indices: 
       edges: []
@@ -296,15 +296,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      POLIIDLE-Sheet_0: 5357415318206606476
-      POLIIDLE-Sheet_1: 3471143666304241672
-      POLIIDLE-Sheet_2: -1392351555466356102
-      POLIIDLE-Sheet_3: -3760673786430579274
-      POLIIDLE-Sheet_4: 6067445268523668800
-      POLIIDLE-Sheet_5: -8394846139300811757
-      POLIIDLE-Sheet_6: -2431832111263478034
-      POLIIDLE-Sheet_7: 9202163758999280049
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

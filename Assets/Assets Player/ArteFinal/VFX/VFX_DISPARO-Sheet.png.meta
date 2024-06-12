@@ -152,7 +152,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      VFX_DISPARO-Sheet_0: 2902042313878060271
+      VFX_DISPARO-Sheet_1: 5590753353026833033
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
