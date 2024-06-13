@@ -55,6 +55,13 @@ public class disparo : MonoBehaviour
             Destroy(collision.gameObject);
 
         }
+
+        if (collision.CompareTag("Policia"))
+        {
+            municion += 1;
+            Destroy(collision.gameObject);
+
+        }
     }
 
 

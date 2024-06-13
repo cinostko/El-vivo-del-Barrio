@@ -10,6 +10,7 @@ TagManager:
   - Mostrito
   - Municion
   - Beer
+  - Policia
   layers:
   - Default
   - TransparentFX
