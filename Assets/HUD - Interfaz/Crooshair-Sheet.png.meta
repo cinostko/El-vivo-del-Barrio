@@ -139,6 +139,42 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -488,7 +524,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Crooshair-Sheet_0: -1381704656349831132
+      Crooshair-Sheet_1: 8538841698606577050
+      Crooshair-Sheet_10: 291954248739508191
+      Crooshair-Sheet_11: -6246614440901063726
+      Crooshair-Sheet_12: -8340546046974332232
+      Crooshair-Sheet_13: 3051836074598647446
+      Crooshair-Sheet_14: -4869975307637930845
+      Crooshair-Sheet_15: 5417951552093681773
+      Crooshair-Sheet_2: -5291021589216613603
+      Crooshair-Sheet_3: 5601119716923200093
+      Crooshair-Sheet_4: -3785762257806599603
+      Crooshair-Sheet_5: 7474584190917887741
+      Crooshair-Sheet_6: -5146221830229777422
+      Crooshair-Sheet_7: 1535011970595005858
+      Crooshair-Sheet_8: -4009419576759533591
+      Crooshair-Sheet_9: 3370161894576866926
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

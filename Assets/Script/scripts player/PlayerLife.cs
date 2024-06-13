@@ -6,6 +6,12 @@ public class PlayerLife : MonoBehaviour
 {
     [SerializeField] private int life;
     [SerializeField] private int maxLife;
+    RageBar ragebar;
+
+    private void Awake()
+    {
+        ragebar = GameObject.Find("Furia").GetComponent<RageBar>();
+    }
 
     private void Start()
     {
@@ -17,22 +23,25 @@ public class PlayerLife : MonoBehaviour
 
     public void CambioVida(int valor)
     {
-        life += valor;
+        if (ragebar.isRaging == false)
+        {
+            life += valor;
 
-        if (life < 0)
-        {
-            life = 0;
-        }
-        else if (life > maxLife)
-        {
-            life = maxLife;
-        }
+            if (life < 0)
+            {
+                life = 0;
+            }
+            else if (life > maxLife)
+            {
+                life = maxLife;
+            }
 
-        UIController.Instance.UpdateLifeBar(life, maxLife);
-        UIController.Instance.UpdateLifeText(life);
-        if (life <= 0)
-        {
-            Destroy(gameObject);
+            UIController.Instance.UpdateLifeBar(life, maxLife);
+            UIController.Instance.UpdateLifeText(life);
+            if (life <= 0)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 

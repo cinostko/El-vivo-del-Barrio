@@ -8,7 +8,7 @@ public class RageBar : MonoBehaviour
     [SerializeField] private Image rageFillImage; //Imagen que representa la barra de furia
     private float rageDuration = 10f; // Duracion de la Furia en segundos
     private float rageTimeRemaining;
-    private bool isRaging = false;
+    public bool isRaging = false;
 
     void Update()
     {

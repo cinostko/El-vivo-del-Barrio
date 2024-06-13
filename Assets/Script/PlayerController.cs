@@ -5,11 +5,12 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private RageBar rageBar; // Referencia al script de la barra de furia
-    private bool hasBeer = false;
+    //private bool hasBeer = false;
+    [SerializeField] private int ContadorCerveza = 0;
 
     void Update()
     {
-        if (hasBeer && Input.GetKeyDown(KeyCode.C))
+        if (ContadorCerveza >0 && Input.GetKeyDown(KeyCode.C))
         {
             UseBeer();
         }
@@ -17,19 +18,36 @@ public class PlayerController : MonoBehaviour
 
     public void PickupBeer()
     {
-        hasBeer = true;
+        //hasBeer = true;
+        ContadorCerveza++;
         // Aqui podrias añadir logica para mostrar que el jugador tiene una cerveza
         Debug.Log("Cerveza recogida");
     }
 
     public void UseBeer()
     {
-        if (hasBeer)
+        if (ContadorCerveza>0)
         {
-            hasBeer = false;
+            //hasBeer = false;
+            ContadorCerveza--;
             rageBar.StartRage();
             // Aqui podrias añadir logica para mostrar que el jugador ha usado la cerveza
             Debug.Log("Cerveza usada. Furia Activada.");
         }
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Beer"))
+        {
+            PickupBeer();
+            Destroy(other.gameObject);
+
+           
+        }
+    }
+
+
+
+
 }

@@ -9,6 +9,7 @@ TagManager:
   - PlayerBullet
   - Mostrito
   - Municion
+  - Beer
   layers:
   - Default
   - TransparentFX
