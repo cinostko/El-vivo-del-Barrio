@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 186861080188086369}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Melee
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,8 +47,8 @@ GameObject:
   - component: {fileID: 7780737844856090392}
   - component: {fileID: 6661239840850853003}
   - component: {fileID: 1405816444901730012}
-  m_Layer: 0
-  m_Name: Enemy
+  m_Layer: 6
+  m_Name: enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -138,6 +138,7 @@ MonoBehaviour:
   detenerDistancia: 2.5
   ataqueMelee: 1
   speed: 4
+  TiempoAlejandose: 3
 --- !u!50 &6371532901372293239
 Rigidbody2D:
   serializedVersion: 4

@@ -11,9 +11,18 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private float speed;
     private Rigidbody2D rb2d;
     private EnemyShoot enemyShoot;
+    private EstadoEnemigo EstadoActivo;
+    [SerializeField] private float TiempoAlejandose;
+
+    public enum EstadoEnemigo
+    {
+        Siguiendo,
+        Alejandose
+    }
 
     private void Awake()
     {
+        EstadoActivo = EstadoEnemigo.Siguiendo;
         objetivoTransform = GameObject.Find("Player").transform;
         rb2d = GetComponent<Rigidbody2D>();
         enemyShoot = GameObject.Find("Enemy").GetComponent<EnemyShoot>();
@@ -55,12 +64,46 @@ public class EnemyMovement : MonoBehaviour
     void Update()
     {
        
-        if (objetivoTransform== null) return;
-        
+        switch (EstadoActivo)
+        {
+            case EstadoEnemigo.Siguiendo:
+                Movimiento();
+                    break;
+            case EstadoEnemigo.Alejandose:
+                break;
+        }
 
-        Movimiento();
+        if (objetivoTransform== null) return;
+       
     }
 
+    public void Alejado()
+    {
+        if (EstadoActivo == EstadoEnemigo.Siguiendo)
+        {
+            EstadoActivo = EstadoEnemigo.Alejandose;
+            StartCoroutine(Alejandose());
+        }
+    }
+
+    IEnumerator Alejandose()
+    {
+        float timer = 0;
+        while (timer <= TiempoAlejandose)
+        {
+            if (objetivoTransform != null)
+            {
+                Vector2 direccion = objetivoTransform.position - transform.position;
+                direccion -= direccion.normalized;
+                direccion = direccion.normalized;
+                rb2d.velocity = -direccion * speed;
+            }
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        EstadoActivo = EstadoEnemigo.Siguiendo;
+    }
 
     private void OnDrawGizmos()
     {

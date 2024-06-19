@@ -44106,7 +44106,7 @@ GameObject:
   - component: {fileID: 1212761577}
   m_Layer: 0
   m_Name: Cerveza (1)
-  m_TagString: Untagged
+  m_TagString: Beer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44438,7 +44438,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1012.8, y: -458.1}
+  m_AnchoredPosition: {x: 1012.7999, y: -458.1}
   m_SizeDelta: {x: 44, y: 7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1272710204
@@ -44547,7 +44547,7 @@ GameObject:
   - component: {fileID: 1367950016}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Policia
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44665,6 +44665,7 @@ GameObject:
   - component: {fileID: 1460731818}
   - component: {fileID: 1460731817}
   - component: {fileID: 1460731816}
+  - component: {fileID: 1460731828}
   - component: {fileID: 1460731821}
   - component: {fileID: 1460731819}
   - component: {fileID: 1460731822}
@@ -44902,6 +44903,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rageBar: {fileID: 1272710204}
   ContadorCerveza: 0
+--- !u!114 &1460731828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460731815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736d2836af66b214791e592625250cbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Rango: 6.2
+  CapaEnemigo:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &1473145324
 GameObject:
   m_ObjectHideFlags: 0
@@ -44984,7 +45001,7 @@ GameObject:
   - component: {fileID: 1478999579}
   m_Layer: 0
   m_Name: Cerveza
-  m_TagString: Untagged
+  m_TagString: Beer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
