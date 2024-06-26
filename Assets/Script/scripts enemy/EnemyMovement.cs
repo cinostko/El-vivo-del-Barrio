@@ -13,6 +13,9 @@ public class EnemyMovement : MonoBehaviour
     private EnemyShoot enemyShoot;
     private EstadoEnemigo EstadoActivo;
     [SerializeField] private float TiempoAlejandose;
+    private Animator animator;
+
+
 
     public enum EstadoEnemigo
     {
@@ -26,6 +29,7 @@ public class EnemyMovement : MonoBehaviour
         objetivoTransform = GameObject.Find("Player").transform;
         rb2d = GetComponent<Rigidbody2D>();
         enemyShoot = GameObject.Find("Enemy").GetComponent<EnemyShoot>();
+        animator = GetComponent<Animator>();
     }
 
     private void Movimiento()

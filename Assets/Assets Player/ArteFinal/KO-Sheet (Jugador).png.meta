@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,10 +69,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -296,7 +296,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      KO-Sheet (Jugador)_0: 8511438773410070135
+      KO-Sheet (Jugador)_1: -6634062399275226092
+      KO-Sheet (Jugador)_2: -4543428604740436042
+      KO-Sheet (Jugador)_3: -7383637376254619086
+      KO-Sheet (Jugador)_4: 7585849160114550018
+      KO-Sheet (Jugador)_5: -346472551551015537
+      KO-Sheet (Jugador)_6: -4690181993526040733
+      KO-Sheet (Jugador)_7: 7585258282756845712
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

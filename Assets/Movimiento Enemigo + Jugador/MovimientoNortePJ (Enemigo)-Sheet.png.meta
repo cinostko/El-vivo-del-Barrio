@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,10 +69,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -296,7 +296,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MovimientoNortePJ (Enemigo)-Sheet_0: -711738893097568101
+      MovimientoNortePJ (Enemigo)-Sheet_1: -2822310178463700708
+      MovimientoNortePJ (Enemigo)-Sheet_2: 8459530654697723704
+      MovimientoNortePJ (Enemigo)-Sheet_3: -4410974632214583362
+      MovimientoNortePJ (Enemigo)-Sheet_4: 3755545737292441516
+      MovimientoNortePJ (Enemigo)-Sheet_5: -9218591167087863859
+      MovimientoNortePJ (Enemigo)-Sheet_6: -2069675708055875902
+      MovimientoNortePJ (Enemigo)-Sheet_7: 6992935027802958555
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

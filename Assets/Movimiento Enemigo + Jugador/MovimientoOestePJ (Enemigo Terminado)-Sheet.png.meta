@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,10 +69,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -296,7 +296,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MovimientoOestePJ (Enemigo Terminado)-Sheet_0: 5033472263399084034
+      MovimientoOestePJ (Enemigo Terminado)-Sheet_1: 8272523890884229201
+      MovimientoOestePJ (Enemigo Terminado)-Sheet_2: -6671184592148434403
+      MovimientoOestePJ (Enemigo Terminado)-Sheet_3: 2774323126891440470
+      MovimientoOestePJ (Enemigo Terminado)-Sheet_4: 3207714064949417455
+      MovimientoOestePJ (Enemigo Terminado)-Sheet_5: 5221445223944387819
+      MovimientoOestePJ (Enemigo Terminado)-Sheet_6: 8690651247381538267
+      MovimientoOestePJ (Enemigo Terminado)-Sheet_7: -3079393216785784897
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

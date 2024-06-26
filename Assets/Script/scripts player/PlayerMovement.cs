@@ -55,19 +55,28 @@ public class PlayerMovement : MonoBehaviour
         if (horizontal != 0f || vertical != 0f)
         {
             direction = new Vector2(horizontal, vertical).normalized;
+            animator.SetFloat("X", direction.x);
+            animator.SetFloat("Y", direction.y);
+            IsMoving = direction.magnitude > 0;
+        }
+        else
+        {
+            IsMoving = false;
+            animator.SetFloat("X", 0);
+            animator.SetFloat("Y", 0);
         }
 
         if (horizontal > 0) transform.localScale = new Vector2(1, 1);
         else if (horizontal < 0) transform.localScale = new Vector2(-1, 1);
 
         rb2d.velocity = new Vector2(horizontal, vertical).normalized * speed;
-        IsMoving = direction.magnitude > 0;
+        
     }
 
     void Animator()
     {
-        animator.SetFloat("X", direction.x);
-        animator.SetFloat("Y", direction.y);
+        //animator.SetFloat("X", direction.x);
+        //animator.SetFloat("Y", direction.y);
 
        
         animator.SetBool("IsMoving", IsMoving);
