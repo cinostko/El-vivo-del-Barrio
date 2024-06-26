@@ -19,9 +19,13 @@ public class PlayerController : MonoBehaviour
     public void PickupBeer()
     {
         //hasBeer = true;
-        ContadorCerveza++;
-        // Aqui podrias añadir logica para mostrar que el jugador tiene una cerveza
-        Debug.Log("Cerveza recogida");
+        if (ContadorCerveza < 1)
+        {
+            ContadorCerveza++;
+            // Aqui podrias añadir logica para mostrar que el jugador tiene una cerveza
+            Debug.Log("Cerveza recogida");
+
+        }
     }
 
     public void UseBeer()
@@ -38,7 +42,7 @@ public class PlayerController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Beer"))
+        if (other.CompareTag("Beer") && ContadorCerveza < 1)
         {
             PickupBeer();
             Destroy(other.gameObject);

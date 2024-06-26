@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 direction;
     private Camera cam;
     [SerializeField] private Animator animator;
+    private bool IsMoving;
 
     public Vector2 Direction
     {
@@ -49,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
-        
+
 
         if (horizontal != 0f || vertical != 0f)
         {
@@ -60,12 +61,18 @@ public class PlayerMovement : MonoBehaviour
         else if (horizontal < 0) transform.localScale = new Vector2(-1, 1);
 
         rb2d.velocity = new Vector2(horizontal, vertical).normalized * speed;
+        IsMoving = direction.magnitude > 0;
     }
 
     void Animator()
     {
         animator.SetFloat("X", direction.x);
         animator.SetFloat("Y", direction.y);
+
+       
+        animator.SetBool("IsMoving", IsMoving);
+
+
     }
 
 }
