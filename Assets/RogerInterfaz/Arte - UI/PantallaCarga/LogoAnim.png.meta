@@ -1,31 +1,40 @@
 fileFormatVersion: 2
-guid: 04fc09a9a7d27834b8062a6a7e225ff4
+guid: d67cc7a49527b2244a30673f555a12b1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1787284069661915006
-    second: KO-Sheet (Enemigo)_0
+      213: 7536100840514189493
+    second: LogoAnim_0
   - first:
-      213: -9175939758384462317
-    second: KO-Sheet (Enemigo)_1
+      213: 1514980548348734936
+    second: LogoAnim_1
   - first:
-      213: 2471873159855126706
-    second: KO-Sheet (Enemigo)_2
+      213: 5812068978602465163
+    second: LogoAnim_2
   - first:
-      213: -6554529554180968383
-    second: KO-Sheet (Enemigo)_3
+      213: -6781402183621257013
+    second: LogoAnim_3
   - first:
-      213: 1405068410262176141
-    second: KO-Sheet (Enemigo)_4
+      213: -1404271271724719874
+    second: LogoAnim_4
   - first:
-      213: 6285828341345202841
-    second: KO-Sheet (Enemigo)_5
+      213: -1829706989248467824
+    second: LogoAnim_5
   - first:
-      213: 1915031568121130817
-    second: KO-Sheet (Enemigo)_6
+      213: -6816905812511859896
+    second: LogoAnim_6
   - first:
-      213: -555328243701358681
-    second: KO-Sheet (Enemigo)_7
+      213: 7796724009245373981
+    second: LogoAnim_7
+  - first:
+      213: 2577298031232134055
+    second: LogoAnim_8
+  - first:
+      213: -7555143847078342197
+    second: LogoAnim_9
+  - first:
+      213: -6671701926173669503
+    second: LogoAnim_10
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -58,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,10 +78,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +105,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: KO-Sheet (Enemigo)_0
+      name: LogoAnim_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 13
-        width: 22
-        height: 41
+        x: 91
+        y: 0
+        width: 91
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 288461bab9a4237e0800000000000000
-      internalID: -1787284069661915006
+      spriteID: 5b8fe5659cb959860800000000000000
+      internalID: 7536100840514189493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KO-Sheet (Enemigo)_1
+      name: LogoAnim_1
       rect:
         serializedVersion: 2
-        x: 85
-        y: 13
-        width: 22
-        height: 42
+        x: 182
+        y: 0
+        width: 91
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3164c1de76388a080800000000000000
-      internalID: -9175939758384462317
+      spriteID: 8dde3f138ca460510800000000000000
+      internalID: 1514980548348734936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KO-Sheet (Enemigo)_2
+      name: LogoAnim_2
       rect:
         serializedVersion: 2
-        x: 149
-        y: 13
-        width: 22
-        height: 42
+        x: 273
+        y: 0
+        width: 91
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b8bcf6da8bdd4220800000000000000
-      internalID: 2471873159855126706
+      spriteID: b87daaf31fd98a050800000000000000
+      internalID: 5812068978602465163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KO-Sheet (Enemigo)_3
+      name: LogoAnim_3
       rect:
         serializedVersion: 2
-        x: 211
-        y: 15
-        width: 26
-        height: 39
+        x: 364
+        y: 0
+        width: 91
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1407e3d0912a905a0800000000000000
-      internalID: -6554529554180968383
+      spriteID: bc85236b4ae93e1a0800000000000000
+      internalID: -6781402183621257013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KO-Sheet (Enemigo)_4
+      name: LogoAnim_4
       rect:
         serializedVersion: 2
-        x: 272
-        y: 14
-        width: 32
-        height: 37
+        x: 455
+        y: 0
+        width: 91
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d81ccc6564ecf7310800000000000000
-      internalID: 1405068410262176141
+      spriteID: ef0ef80f7b6038ce0800000000000000
+      internalID: -1404271271724719874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KO-Sheet (Enemigo)_5
+      name: LogoAnim_5
       rect:
         serializedVersion: 2
-        x: 339
-        y: 12
-        width: 26
-        height: 37
+        x: 546
+        y: 0
+        width: 91
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 992b6fc929fbb3750800000000000000
-      internalID: 6285828341345202841
+      spriteID: 09cabceff239b96e0800000000000000
+      internalID: -1829706989248467824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KO-Sheet (Enemigo)_6
+      name: LogoAnim_6
       rect:
         serializedVersion: 2
-        x: 403
-        y: 12
-        width: 26
-        height: 36
+        x: 637
+        y: 0
+        width: 91
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 14fe48f901f839a10800000000000000
-      internalID: 1915031568121130817
+      spriteID: 84b5fe1f74c7561a0800000000000000
+      internalID: -6816905812511859896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KO-Sheet (Enemigo)_7
+      name: LogoAnim_7
       rect:
         serializedVersion: 2
-        x: 467
-        y: 12
-        width: 26
-        height: 37
+        x: 728
+        y: 0
+        width: 91
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,8 +289,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7af507497e31b48f0800000000000000
-      internalID: -555328243701358681
+      spriteID: d1674d67d27833c60800000000000000
+      internalID: 7796724009245373981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LogoAnim_8
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 0
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aba7ef77e664c320800000000000000
+      internalID: 2577298031232134055
       vertices: []
       indices: 
       edges: []
@@ -289,7 +319,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fedd5d93956a5784aba25e351c836615
     internalID: 0
     vertices: []
     indices: 
@@ -297,14 +327,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      KO-Sheet (Enemigo)_0: -1787284069661915006
-      KO-Sheet (Enemigo)_1: -9175939758384462317
-      KO-Sheet (Enemigo)_2: 2471873159855126706
-      KO-Sheet (Enemigo)_3: -6554529554180968383
-      KO-Sheet (Enemigo)_4: 1405068410262176141
-      KO-Sheet (Enemigo)_5: 6285828341345202841
-      KO-Sheet (Enemigo)_6: 1915031568121130817
-      KO-Sheet (Enemigo)_7: -555328243701358681
+      LogoAnim_0: 7536100840514189493
+      LogoAnim_1: 1514980548348734936
+      LogoAnim_2: 5812068978602465163
+      LogoAnim_3: -6781402183621257013
+      LogoAnim_4: -1404271271724719874
+      LogoAnim_5: -1829706989248467824
+      LogoAnim_6: -6816905812511859896
+      LogoAnim_7: 7796724009245373981
+      LogoAnim_8: 2577298031232134055
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

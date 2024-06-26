@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: 04fc09a9a7d27834b8062a6a7e225ff4
+guid: 5d6923ae24e33464d928e6f0b995588b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1787284069661915006
-    second: KO-Sheet (Enemigo)_0
+      213: 4355822869605506483
+    second: Botones y Caja_0
   - first:
-      213: -9175939758384462317
-    second: KO-Sheet (Enemigo)_1
+      213: -6261074463476494925
+    second: Botones y Caja_1
   - first:
-      213: 2471873159855126706
-    second: KO-Sheet (Enemigo)_2
+      213: 3969993753011586574
+    second: Botones y Caja_2
   - first:
-      213: -6554529554180968383
-    second: KO-Sheet (Enemigo)_3
+      213: 5726202987077323935
+    second: Botones y Caja_3
   - first:
-      213: 1405068410262176141
-    second: KO-Sheet (Enemigo)_4
+      213: -1376159189869731175
+    second: Botones y Caja_4
   - first:
-      213: 6285828341345202841
-    second: KO-Sheet (Enemigo)_5
-  - first:
-      213: 1915031568121130817
-    second: KO-Sheet (Enemigo)_6
-  - first:
-      213: -555328243701358681
-    second: KO-Sheet (Enemigo)_7
+      213: -2104637238572829576
+    second: Botones y Caja_5
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -58,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,10 +63,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,169 +113,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: KO-Sheet (Enemigo)_0
+      name: Botones y Caja_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 13
-        width: 22
-        height: 41
+        x: 0
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 11, y: 18, z: 11, w: 6}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 288461bab9a4237e0800000000000000
-      internalID: -1787284069661915006
+      spriteID: 3bddb5f52ddf27c30800000000000000
+      internalID: 4355822869605506483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KO-Sheet (Enemigo)_1
+      name: Botones y Caja_1
       rect:
         serializedVersion: 2
-        x: 85
-        y: 13
-        width: 22
-        height: 42
+        x: 64
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 15, z: 7, w: 6}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3164c1de76388a080800000000000000
-      internalID: -9175939758384462317
+      spriteID: 3bdc634b2f13c19a0800000000000000
+      internalID: -6261074463476494925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KO-Sheet (Enemigo)_2
+      name: Botones y Caja_2
       rect:
         serializedVersion: 2
-        x: 149
-        y: 13
-        width: 22
-        height: 42
+        x: 127
+        y: 0
+        width: 66
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 13, y: 18, z: 13, w: 9}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b8bcf6da8bdd4220800000000000000
-      internalID: 2471873159855126706
+      spriteID: e0686c0d840481730800000000000000
+      internalID: 3969993753011586574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KO-Sheet (Enemigo)_3
+      name: Botones y Caja_3
       rect:
         serializedVersion: 2
-        x: 211
-        y: 15
-        width: 26
-        height: 39
+        x: 192
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 8, y: 13, z: 8, w: 9}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1407e3d0912a905a0800000000000000
-      internalID: -6554529554180968383
+      spriteID: f9c468c274f877f40800000000000000
+      internalID: 5726202987077323935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KO-Sheet (Enemigo)_4
+      name: Botones y Caja_4
       rect:
         serializedVersion: 2
-        x: 272
-        y: 14
-        width: 32
-        height: 37
+        x: 256
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 8, y: 8, z: 8, w: 8}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d81ccc6564ecf7310800000000000000
-      internalID: 1405068410262176141
+      spriteID: 992ec6d0286e6ece0800000000000000
+      internalID: -1376159189869731175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KO-Sheet (Enemigo)_5
+      name: Botones y Caja_5
       rect:
         serializedVersion: 2
-        x: 339
-        y: 12
-        width: 26
-        height: 37
+        x: 319
+        y: 0
+        width: 65
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 10, z: 8, w: 10}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 992b6fc929fbb3750800000000000000
-      internalID: 6285828341345202841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KO-Sheet (Enemigo)_6
-      rect:
-        serializedVersion: 2
-        x: 403
-        y: 12
-        width: 26
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 14fe48f901f839a10800000000000000
-      internalID: 1915031568121130817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KO-Sheet (Enemigo)_7
-      rect:
-        serializedVersion: 2
-        x: 467
-        y: 12
-        width: 26
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7af507497e31b48f0800000000000000
-      internalID: -555328243701358681
+      spriteID: 874bec51593dac2e0800000000000000
+      internalID: -2104637238572829576
       vertices: []
       indices: 
       edges: []
@@ -289,7 +241,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4758e324467dc454c91703a6212086d5
     internalID: 0
     vertices: []
     indices: 
@@ -297,14 +249,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      KO-Sheet (Enemigo)_0: -1787284069661915006
-      KO-Sheet (Enemigo)_1: -9175939758384462317
-      KO-Sheet (Enemigo)_2: 2471873159855126706
-      KO-Sheet (Enemigo)_3: -6554529554180968383
-      KO-Sheet (Enemigo)_4: 1405068410262176141
-      KO-Sheet (Enemigo)_5: 6285828341345202841
-      KO-Sheet (Enemigo)_6: 1915031568121130817
-      KO-Sheet (Enemigo)_7: -555328243701358681
+      Botones y Caja_0: 4355822869605506483
+      Botones y Caja_1: -6261074463476494925
+      Botones y Caja_2: 3969993753011586574
+      Botones y Caja_3: 5726202987077323935
+      Botones y Caja_4: -1376159189869731175
+      Botones y Caja_5: -2104637238572829576
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

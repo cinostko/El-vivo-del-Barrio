@@ -1,0 +1,537 @@
+fileFormatVersion: 2
+guid: 0d1a9381d6166534aa2cf67c31142388
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8725179008722324645
+    second: VivoLogo_0
+  - first:
+      213: -2112143344857276946
+    second: VivoLogo_1
+  - first:
+      213: -217476004453609139
+    second: VivoLogo_2
+  - first:
+      213: 8614008511396574233
+    second: VivoLogo_3
+  - first:
+      213: -4594274270029364927
+    second: VivoLogo_4
+  - first:
+      213: 2426737652442168226
+    second: VivoLogo_5
+  - first:
+      213: 8610324924374297295
+    second: VivoLogo_6
+  - first:
+      213: -1010819025155060111
+    second: VivoLogo_7
+  - first:
+      213: 1561294882671840961
+    second: VivoLogo_8
+  - first:
+      213: 1125564035406013101
+    second: VivoLogo_9
+  - first:
+      213: -458579018346792856
+    second: VivoLogo_10
+  - first:
+      213: 5109500309294797899
+    second: VivoLogo_11
+  - first:
+      213: -6843094132565187095
+    second: VivoLogo_12
+  - first:
+      213: 4619244630653388145
+    second: VivoLogo_13
+  - first:
+      213: 4784242754329434114
+    second: VivoLogo_14
+  - first:
+      213: -6574415684647273698
+    second: VivoLogo_15
+  - first:
+      213: -6461413418685015747
+    second: VivoLogo_16
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VivoLogo_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 107
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acc6989410161970800000000000000
+      internalID: 8725179008722324645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 111
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed931781d820b2e0800000000000000
+      internalID: -2112143344857276946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 108
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d411f57e9be5bfcf0800000000000000
+      internalID: -217476004453609139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 132
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914fbf52a1b1b8770800000000000000
+      internalID: 8614008511396574233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 109
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141ce2694ebdd30c0800000000000000
+      internalID: -4594274270029364927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab71e899018da120800000000000000
+      internalID: 2426737652442168226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 116
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcaa50636e40e7770800000000000000
+      internalID: 8610324924374297295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo_7
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 78
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e0d61c379d8f1f0800000000000000
+      internalID: -1010819025155060111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo_8
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 81
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce4a477c65daa510800000000000000
+      internalID: 1561294882671840961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo_9
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 83
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2a456d68ece9f00800000000000000
+      internalID: 1125564035406013101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 34
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868fdfdffccc2a9f0800000000000000
+      internalID: -458579018346792856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo_11
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 25
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44d343c57798e640800000000000000
+      internalID: 5109500309294797899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 22
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e564e784227801a0800000000000000
+      internalID: -6843094132565187095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 22
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175c9bc848ada1040800000000000000
+      internalID: 4619244630653388145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo_14
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 64
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208da03ef6b056240800000000000000
+      internalID: 4784242754329434114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo_15
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 36
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bb7de74cbf2c4a0800000000000000
+      internalID: -6574415684647273698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo_16
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 3
+        width: 31
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d395650dab27456a0800000000000000
+      internalID: -6461413418685015747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      VivoLogo_0: 8725179008722324645
+      VivoLogo_1: -2112143344857276946
+      VivoLogo_10: -458579018346792856
+      VivoLogo_11: 5109500309294797899
+      VivoLogo_12: -6843094132565187095
+      VivoLogo_13: 4619244630653388145
+      VivoLogo_14: 4784242754329434114
+      VivoLogo_15: -6574415684647273698
+      VivoLogo_16: -6461413418685015747
+      VivoLogo_2: -217476004453609139
+      VivoLogo_3: 8614008511396574233
+      VivoLogo_4: -4594274270029364927
+      VivoLogo_5: 2426737652442168226
+      VivoLogo_6: 8610324924374297295
+      VivoLogo_7: -1010819025155060111
+      VivoLogo_8: 1561294882671840961
+      VivoLogo_9: 1125564035406013101
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
