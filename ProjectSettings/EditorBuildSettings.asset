@@ -6,15 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/RogerInterfaz/Escenas/Inicio.unity
+    guid: cb20f91ff9a45ee428cad2563a734965
+  - enabled: 1
+    path: Assets/RogerInterfaz/Escenas/MenuPrincipal.unity
+    guid: 53f300806e6bc77449f9a5945de5b61c
+  - enabled: 1
+    path: Assets/Scenes/Nivel1.unity
+    guid: d70b486d5cd83434d827c4326f86a44d
+  - enabled: 0
     path: Assets/Scenes/MenuDeInicio.unity
     guid: 834e9232015ade04c8d4553881c1afc8
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/VivoBarrio1.unity
-    guid: d70b486d5cd83434d827c4326f86a44d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/sergio.unity
     guid: 9855e6d7e2c4eab42b030bc1ad2181bc
   m_configObjects: {}
