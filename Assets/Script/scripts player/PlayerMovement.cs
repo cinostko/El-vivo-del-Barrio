@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 direction;
     private Camera cam;
     [SerializeField] private Animator animator;
-    private bool IsMoving;
+    private bool isMoving;
 
     public Vector2 Direction
     {
@@ -47,6 +47,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Move()
     {
+                           
+               
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
@@ -55,19 +57,14 @@ public class PlayerMovement : MonoBehaviour
         if (horizontal != 0f || vertical != 0f)
         {
             direction = new Vector2(horizontal, vertical).normalized;
-            animator.SetFloat("X", direction.x);
-            animator.SetFloat("Y", direction.y);
-            IsMoving = direction.magnitude > 0;
+            //animator.SetFloat("X", direction.x);
+            //animator.SetFloat("Y", direction.y);
+            //IsMoving = direction.magnitude > 0;
         }
-        else
-        {
-            IsMoving = false;
-            animator.SetFloat("X", 0);
-            animator.SetFloat("Y", 0);
-        }
+       
 
-        if (horizontal > 0) transform.localScale = new Vector2(1, 1);
-        else if (horizontal < 0) transform.localScale = new Vector2(-1, 1);
+        //if (horizontal > 0) transform.localScale = new Vector2(1, 1);
+        //else if (horizontal < 0) transform.localScale = new Vector2(-1, 1);
 
         rb2d.velocity = new Vector2(horizontal, vertical).normalized * speed;
         
@@ -75,11 +72,22 @@ public class PlayerMovement : MonoBehaviour
 
     void Animator()
     {
-        //animator.SetFloat("X", direction.x);
-        //animator.SetFloat("Y", direction.y);
+        Vector2 input = new(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
-       
-        animator.SetBool("IsMoving", IsMoving);
+        if (input.x != 0)
+        {
+            transform.localScale = new Vector3(input.x, 1, 1);
+        }
+
+        isMoving = input != Vector2.zero;
+
+        if (isMoving)
+        {
+            animator.SetFloat("X", input.x);
+            animator.SetFloat("Y", input.y);
+        }
+
+        animator.SetBool("IsMoving", isMoving);
 
 
     }

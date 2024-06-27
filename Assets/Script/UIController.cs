@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using JetBrains.Annotations;
+using System.Runtime.CompilerServices;
 
 public class UIController : MonoBehaviour
 {
@@ -12,6 +14,8 @@ public class UIController : MonoBehaviour
     [SerializeField] private TextMeshProUGUI municiontext;
     [SerializeField] private Image lifeBarImage;
     [SerializeField] private Image furiaBarImage;
+    [SerializeField] private TextMeshProUGUI Tiempotext;
+    
     //[SerializeField] private Image CambioArma;
     public static UIController Instance //PREGUNTAR SOBRE LA PROPIEDAD Y ESTATICO. 
     {
@@ -21,6 +25,7 @@ public class UIController : MonoBehaviour
     private void Awake()
     {
         instance = this;
+       
     }
 
 
@@ -45,6 +50,14 @@ public class UIController : MonoBehaviour
         municiontext.text = $"Municion : {value}";
     }
 
+    public void TiempoContador(int t, int minutos, int segundos)
+    {
+        
+        string format = "{0:00}:{1:00}";
+        Tiempotext.SetText(string.Format(format, minutos, segundos));
+    
+      
+    }
 
 
     // Start is called before the first frame update

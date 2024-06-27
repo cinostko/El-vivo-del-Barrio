@@ -36,7 +36,8 @@ public class PlayerLife : MonoBehaviour
             {
                 life = 0;
                 isDead = true;
-                animator.SetBool("isDead", isDead);
+                //animator.SetBool("Muerto", true);
+                animator.SetTrigger("IsDead");
             }
             else if (life > maxLife)
             {
@@ -75,10 +76,12 @@ public class PlayerLife : MonoBehaviour
         if (life <= 0)
         {
             isDead = true;
-            animator.SetBool("isDead", isDead);
+            animator.SetTrigger("IsDead");
+            //animator.SetBool("Muerto", true);
             //Destroy(gameObject);
         }
 
 
     }
 }
+
