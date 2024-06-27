@@ -14,6 +14,7 @@ public class EnemyMovement : MonoBehaviour
     private EstadoEnemigo EstadoActivo;
     [SerializeField] private float TiempoAlejandose;
     private Animator animator;
+    private bool isMoving;
 
 
 
@@ -40,6 +41,14 @@ public class EnemyMovement : MonoBehaviour
             direccion -= direccion.normalized;
             direccion = direccion.normalized;
             rb2d.velocity = direccion * speed;
+            isMoving = direccion != Vector2.zero;
+            if (isMoving)
+            {
+
+                animator.SetFloat("X", direccion.x);
+                animator.SetFloat("Y", direccion.y);
+            }
+
         }
         //else if (Vector2.Distance(objetivoTransform.position, transform.position) > detenerDistancia &&  enemyShoot.municion > 0)
         //{

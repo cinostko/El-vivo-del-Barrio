@@ -11,6 +11,7 @@ TagManager:
   - Municion
   - Beer
   - Policia
+  - Muro
   layers:
   - Default
   - TransparentFX
