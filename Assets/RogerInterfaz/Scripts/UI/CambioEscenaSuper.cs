@@ -24,4 +24,27 @@ public class CambioEscenaSuper : MonoBehaviour
         SceneManager.LoadScene(EscenaNombre);
 
     }
+
+    public void CambioEscenaGameplay()
+    {
+        Invoke("GameplayActivo", delay);
+        Time.timeScale = 1;
+
+    }
+
+    private void GameplayActivo()
+    {
+        
+        SceneManager.LoadScene(EscenaNombre);
+    }
+
+    public void ReintentarAccion()
+    {
+        Invoke("ReintentarFuncion",  delay);
+    }
+
+    private void ReintentarFuncion()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }

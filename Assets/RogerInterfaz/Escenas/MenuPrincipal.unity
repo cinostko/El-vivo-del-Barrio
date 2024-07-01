@@ -5061,7 +5061,7 @@ GameObject:
   - component: {fileID: 1104195122}
   - component: {fileID: 1104195121}
   m_Layer: 0
-  m_Name: EfectosBoton
+  m_Name: SFX_EfectosBoton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
