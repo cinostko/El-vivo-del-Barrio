@@ -320,7 +320,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      IdleDisparoSurPJ-Sheet (Coloreado)_0: -4730457179821673396
+      IdleDisparoSurPJ-Sheet (Coloreado)_1: -7068628575889919756
+      IdleDisparoSurPJ-Sheet (Coloreado)_2: 717273335855541706
+      IdleDisparoSurPJ-Sheet (Coloreado)_3: -3951276854325251619
+      IdleDisparoSurPJ-Sheet (Coloreado)_4: -6562889034855189051
+      IdleDisparoSurPJ-Sheet (Coloreado)_5: -9014498016935118006
+      IdleDisparoSurPJ-Sheet (Coloreado)_6: 5554779098279344428
+      IdleDisparoSurPJ-Sheet (Coloreado)_7: -8618820643564046991
+      IdleDisparoSurPJ-Sheet (Coloreado)_8: -425860689405409582
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

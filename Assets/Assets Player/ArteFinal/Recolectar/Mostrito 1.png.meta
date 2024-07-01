@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mostrito 1_0: 7314463009092639827
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

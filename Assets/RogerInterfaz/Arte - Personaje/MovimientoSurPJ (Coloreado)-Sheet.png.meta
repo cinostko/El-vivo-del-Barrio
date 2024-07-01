@@ -296,7 +296,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MovimientoSurPJ (Coloreado)-Sheet_0: 9118253326611788319
+      MovimientoSurPJ (Coloreado)-Sheet_1: 694520993276164926
+      MovimientoSurPJ (Coloreado)-Sheet_2: 5102546267198215872
+      MovimientoSurPJ (Coloreado)-Sheet_3: 6768707300955968956
+      MovimientoSurPJ (Coloreado)-Sheet_4: -5146904441602455977
+      MovimientoSurPJ (Coloreado)-Sheet_5: -4169885743189655734
+      MovimientoSurPJ (Coloreado)-Sheet_6: 2454612565194319850
+      MovimientoSurPJ (Coloreado)-Sheet_7: -4854143569345012205
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -152,7 +152,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Poli Dormio-Sheet_0: -8276937413486460385
+      Poli Dormio-Sheet_1: -7854465608970373212
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
