@@ -43,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -54,10 +54,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -143,9 +143,9 @@ TextureImporter:
       name: Estadio - Tilemap-Sheet_0
       rect:
         serializedVersion: 2
-        x: 31
+        x: 32
         y: 0
-        width: 418
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -164,9 +164,9 @@ TextureImporter:
       name: Estadio - Tilemap-Sheet_1
       rect:
         serializedVersion: 2
-        x: 447
+        x: 64
         y: 0
-        width: 66
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -185,9 +185,9 @@ TextureImporter:
       name: Estadio - Tilemap-Sheet_2
       rect:
         serializedVersion: 2
-        x: 511
+        x: 96
         y: 0
-        width: 65
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -202,10 +202,304 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Estadio - Tilemap-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6546ba8864c855a49a3650a3f0c2ed21
+      internalID: 207035858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estadio - Tilemap-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e25d1c7bbd4dc4f8479c5dc7b9f2a7
+      internalID: 1969613940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estadio - Tilemap-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984ab110c91d22549bf84b596d22c359
+      internalID: 897439786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estadio - Tilemap-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7629a1f5f677347468674f952efbc0f0
+      internalID: 1996612024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estadio - Tilemap-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3bc04523996f94191ba44c676c0805
+      internalID: 1711835767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estadio - Tilemap-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dde945494ffd0a4bb2af79e7ae88bc2
+      internalID: -1153904393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estadio - Tilemap-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710ef7e7c346bb9468c92deb5b038794
+      internalID: -1101413892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estadio - Tilemap-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5db36db0262e0f42b7dd4afae10fedf
+      internalID: -113308868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estadio - Tilemap-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fe447f4d4469c40bc84bf9bd9f05ee
+      internalID: -1251372336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estadio - Tilemap-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e974a38474b85dd48bd002b4dc92ab06
+      internalID: -2124545348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estadio - Tilemap-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885033fc944aedd46a3450e5a9d85123
+      internalID: -747806315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estadio - Tilemap-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ae8c0a2c68a954a996f764ccabd3ab
+      internalID: 1403107296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estadio - Tilemap-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435dd75b9faa6334ebb85fdd590a90e1
+      internalID: -620530226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estadio - Tilemap-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e2a341dfc2eb14288d50b0f9805834
+      internalID: 1800841206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4f38142638974e249b1f23498270a6d7
     internalID: 0
     vertices: []
     indices: 
@@ -215,7 +509,21 @@ TextureImporter:
     nameFileIdTable:
       Estadio - Tilemap-Sheet_0: 2826214602783782441
       Estadio - Tilemap-Sheet_1: -6282719565710794935
+      Estadio - Tilemap-Sheet_10: -113308868
+      Estadio - Tilemap-Sheet_11: -1251372336
+      Estadio - Tilemap-Sheet_12: -2124545348
+      Estadio - Tilemap-Sheet_13: -747806315
+      Estadio - Tilemap-Sheet_14: 1403107296
+      Estadio - Tilemap-Sheet_15: -620530226
+      Estadio - Tilemap-Sheet_16: 1800841206
       Estadio - Tilemap-Sheet_2: 9104360991301269536
+      Estadio - Tilemap-Sheet_3: 207035858
+      Estadio - Tilemap-Sheet_4: 1969613940
+      Estadio - Tilemap-Sheet_5: 897439786
+      Estadio - Tilemap-Sheet_6: 1996612024
+      Estadio - Tilemap-Sheet_7: 1711835767
+      Estadio - Tilemap-Sheet_8: -1153904393
+      Estadio - Tilemap-Sheet_9: -1101413892
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

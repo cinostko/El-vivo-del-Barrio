@@ -1,22 +1,25 @@
 fileFormatVersion: 2
-guid: 3257a93679dbf184ba2afa8f296f37d1
+guid: 4bb7f475cdd053a4e950d52d669b66cf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7867852523957124880
-    second: DecoPostes_0
+      213: -1919375061032940916
+    second: FormasCasa_0
   - first:
-      213: -3733757322750702592
-    second: DecoPostes_1
+      213: 616410705437004620
+    second: FormasCasa_1
   - first:
-      213: -9196897274032395107
-    second: DecoPostes_2
+      213: -4070663674870577920
+    second: FormasCasa_2
   - first:
-      213: -3385715606515561216
-    second: DecoPostes_3
+      213: 7185831670081696981
+    second: FormasCasa_3
   - first:
-      213: 4060831878004773420
-    second: DecoPostes_4
+      213: 2571374952834142844
+    second: FormasCasa_4
+  - first:
+      213: 6432151629010018505
+    second: FormasCasa_5
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -106,53 +109,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DecoPostes_0
+      name: FormasCasa_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 0
-        width: 14
-        height: 128
+        x: 10
+        y: 121
+        width: 36
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,62 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01fff935f2a303d60800000000000000
-      internalID: 7867852523957124880
+      spriteID: c8a43602d820d55e0800000000000000
+      internalID: -1919375061032940916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DecoPostes_1
+      name: FormasCasa_2
       rect:
         serializedVersion: 2
-        x: 41
-        y: 0
-        width: 14
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00c4eeb4f770f2cc0800000000000000
-      internalID: -3733757322750702592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DecoPostes_2
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 0
-        width: 14
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d9c6a8118ae0e5080800000000000000
-      internalID: -9196897274032395107
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DecoPostes_3
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 0
+        x: 64
+        y: 125
         width: 23
-        height: 128
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00dc42b18958301d0800000000000000
-      internalID: -3385715606515561216
+      spriteID: 005c04b74f81287c0800000000000000
+      internalID: -4070663674870577920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DecoPostes_4
+      name: FormasCasa_3
       rect:
         serializedVersion: 2
-        x: 132
-        y: 0
-        width: 23
-        height: 128
+        x: 42
+        y: 100
+        width: 41
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,8 +169,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c229e0de319fa5830800000000000000
-      internalID: 4060831878004773420
+      spriteID: 5d4b8fee4d339b360800000000000000
+      internalID: 7185831670081696981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FormasCasa_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 70
+        width: 66
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72140855eb5fa320800000000000000
+      internalID: 2571374952834142844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FormasCasa_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 22
+        width: 73
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0a79cd3d7934950800000000000000
+      internalID: 6432151629010018505
       vertices: []
       indices: 
       edges: []
@@ -253,7 +220,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9edf4f6dbb0a1f342aaa413b81da2c33
     internalID: 0
     vertices: []
     indices: 
@@ -261,11 +228,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DecoPostes_0: 7867852523957124880
-      DecoPostes_1: -3733757322750702592
-      DecoPostes_2: -9196897274032395107
-      DecoPostes_3: -3385715606515561216
-      DecoPostes_4: 4060831878004773420
+      FormasCasa_0: -1919375061032940916
+      FormasCasa_1: 616410705437004620
+      FormasCasa_2: -4070663674870577920
+      FormasCasa_3: 7185831670081696981
+      FormasCasa_4: 2571374952834142844
+      FormasCasa_5: 6432151629010018505
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
