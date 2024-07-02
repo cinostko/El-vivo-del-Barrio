@@ -47,6 +47,7 @@ GameObject:
   - component: {fileID: 7780737844856090392}
   - component: {fileID: 6661239840850853003}
   - component: {fileID: 1405816444901730012}
+  - component: {fileID: 6854873408765923429}
   m_Layer: 6
   m_Name: enemy
   m_TagString: Enemy
@@ -110,9 +111,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 0.9811321, g: 0.14346743, b: 0.14346743, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -134,10 +135,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1311b048a818534c8d2dd70d3dca947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seguimientoDistancia: 5
-  detenerDistancia: 2.5
-  ataqueMelee: 1
-  speed: 4
+  seguimientoDistancia: 7.5
+  detenerDistancia: 3.5
+  ataqueMelee: 2
+  speed: 5
   TiempoAlejandose: 3
 --- !u!50 &6371532901372293239
 Rigidbody2D:
@@ -165,7 +166,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &2431680284592471447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,13 +174,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8254441216722211390}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 186f1d9dd9820424ab5ea0c838f3f7ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   puntoAtq: {fileID: 186861080188086369}
-  radioAtq: 0.75
+  radioAtq: 2
   AtqLayermask:
     serializedVersion: 2
     m_Bits: 8
@@ -197,7 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 598468515562453627, guid: 91fc56a45c2d53d4695c50a233f332e8, type: 3}
-  DistanciaDisparo: 2.55
+  DistanciaDisparo: 3.5
   municion: 5
 --- !u!114 &6661239840850853003
 MonoBehaviour:
@@ -262,3 +263,25 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!95 &6854873408765923429
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8254441216722211390}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d5a497ae56266f94db5594f93d9d168e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

@@ -5,9 +5,10 @@ using UnityEngine;
 
 public class disparo : MonoBehaviour
 {
-    [SerializeField] private proyectil proyectilprefab;
+    [SerializeField] private proyectil[] proyectilprefab;
     [SerializeField] private Transform shootposition;
     [SerializeField] private int municion;
+    [SerializeField] int velocidabala;
     private Camera cam;
     RageBar rageBar;
 
@@ -29,11 +30,11 @@ public class disparo : MonoBehaviour
         Vector2 mouseWorldPoint = cam.ScreenToWorldPoint(Input.mousePosition);
         Vector2 direction = mouseWorldPoint - (Vector2)transform.position;
         //transform.up = direction;
-        if (Input.GetMouseButtonDown(0) && ( municion > 0 || rageBar.isRaging))
+        if (Input.GetMouseButton(1) && Input.GetMouseButtonDown(0) && ( municion > 0 || rageBar.isRaging))
         {
 
-            proyectil proyectile = Instantiate(proyectilprefab, shootposition.position, transform.rotation);
-            proyectile.launchProjectile(direction);
+            proyectil proyectile = Instantiate(proyectilprefab[Random.Range(0,proyectilprefab.Length)], shootposition.position, transform.rotation);
+            proyectile.launchProjectile(direction.normalized*velocidabala);
 
             if (!rageBar.isRaging)
             {

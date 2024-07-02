@@ -35,41 +35,55 @@ public class EnemyMovement : MonoBehaviour
 
     private void Movimiento()
     {
-        if (Vector2.Distance(objetivoTransform.position, transform.position) < seguimientoDistancia && Vector2.Distance(objetivoTransform.position, transform.position) > detenerDistancia)
-        {
-            Vector2 direccion = objetivoTransform.position - transform.position;
-            direccion -= direccion.normalized;
-            direccion = direccion.normalized;
-            rb2d.velocity = direccion * speed;
-            isMoving = direccion != Vector2.zero;
-            if (isMoving)
-            {
+        float distancia = Vector2.Distance(objetivoTransform.position, transform.position); // distancia dara flloat
 
-                animator.SetFloat("X", direccion.x);
-                animator.SetFloat("Y", direccion.y);
-            }
+        Vector2 direccion = (objetivoTransform.position - transform.position).normalized;
+        SetAnimation(direccion);
+
+
+        if (distancia < seguimientoDistancia && distancia > detenerDistancia)
+        {
+            
+            //direccion -= direccion.normalized;
+            //direccion = direccion.normalized;
+            rb2d.velocity = direccion * speed;
+            animator.SetBool("isMoving", true);
+            //isMoving = direccion != Vector2.zero;
+            //if (isMoving)
+            //{
+            
+            //}
 
         }
         //else if (Vector2.Distance(objetivoTransform.position, transform.position) > detenerDistancia &&  enemyShoot.municion > 0)
         //{
         //    rb2d.velocity = Vector2.zero;
         //}
-        else if (Vector2.Distance(objetivoTransform.position, transform.position) < seguimientoDistancia && enemyShoot.municion <= 0 && Vector2.Distance(objetivoTransform.position, transform.position) > ataqueMelee)
-        {
+        //else if (Vector2.Distance(objetivoTransform.position, transform.position) < seguimientoDistancia && enemyShoot.municion <= 0 && Vector2.Distance(objetivoTransform.position, transform.position) > ataqueMelee)
+        //{
 
-            Vector2 direccion = objetivoTransform.position - transform.position;
-            direccion -= direccion.normalized;
-            direccion = direccion.normalized;
-            rb2d.velocity = direccion * speed;
+        //    Vector2 direccion = objetivoTransform.position - transform.position;
+        //    direccion -= direccion.normalized;
+        //    direccion = direccion.normalized;
+        //    rb2d.velocity = direccion * speed;
 
-        }
+        //}
         //else if (Vector2.Distance(objetivoTransform.position, transform.position) > ataqueMelee)
 
         else
         {
             rb2d.velocity = Vector2.zero;
+            animator.SetBool("isMoving", false);
         }
        
+    }
+
+    void SetAnimation(Vector2 direccion)
+    {
+        if (direccion.x != 0) transform.localScale = new Vector3(direccion.x > 0 ? 1 : -1, 1, 1);
+        animator.SetFloat("X", direccion.x);
+        animator.SetFloat("Y", direccion.y);
+
     }
 
 
@@ -101,6 +115,7 @@ public class EnemyMovement : MonoBehaviour
 
     IEnumerator Alejandose()
     {
+        animator.SetBool("isMoving", true);
         float timer = 0;
         while (timer <= TiempoAlejandose)
         {
@@ -110,12 +125,16 @@ public class EnemyMovement : MonoBehaviour
                 direccion -= direccion.normalized;
                 direccion = direccion.normalized;
                 rb2d.velocity = -direccion * speed;
+                SetAnimation(-direccion);
+                
             }
             timer += Time.deltaTime;
             yield return null;
         }
 
+        animator.SetBool("isMoving", false);
         EstadoActivo = EstadoEnemigo.Siguiendo;
+       
     }
 
     private void OnDrawGizmos()

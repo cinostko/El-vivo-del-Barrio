@@ -9,11 +9,13 @@ public class PlayerLife : MonoBehaviour
     RageBar ragebar;
     [SerializeField] private Animator animator;
     bool isDead;
+    [SerializeField] GameObject EfectoKO;
 
     private void Awake()
     {
         ragebar = GameObject.Find("Furia").GetComponent<RageBar>();
         animator = GetComponent<Animator>();
+        EfectoKO.SetActive(false);
     }
 
     private void Start()
@@ -38,6 +40,7 @@ public class PlayerLife : MonoBehaviour
                 isDead = true;
                 //animator.SetBool("Muerto", true);
                 animator.SetTrigger("IsDead");
+                EfectoKO.SetActive(true);
             }
             else if (life > maxLife)
             {
