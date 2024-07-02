@@ -28,6 +28,7 @@ public class Pausa : MonoBehaviour
 
     public void BotonPausa()
     {
+        Verificar = false;
         Time.timeScale = 1;
         animator.SetTrigger("Activar");
     }

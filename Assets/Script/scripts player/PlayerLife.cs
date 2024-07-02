@@ -10,6 +10,7 @@ public class PlayerLife : MonoBehaviour
     [SerializeField] private Animator animator;
     bool isDead;
     [SerializeField] GameObject EfectoKO;
+    [SerializeField] private Animator Derrota;
 
     private void Awake()
     {
@@ -41,6 +42,7 @@ public class PlayerLife : MonoBehaviour
                 //animator.SetBool("Muerto", true);
                 animator.SetTrigger("IsDead");
                 EfectoKO.SetActive(true);
+                Derrota.SetTrigger("ActivarDerrota");
             }
             else if (life > maxLife)
             {
