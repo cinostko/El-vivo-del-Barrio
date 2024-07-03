@@ -12,6 +12,7 @@ TagManager:
   - Beer
   - Policia
   - Muro
+  - CambioDeEscena
   layers:
   - Default
   - TransparentFX

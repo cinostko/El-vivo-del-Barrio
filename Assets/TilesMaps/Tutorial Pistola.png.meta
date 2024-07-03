@@ -1,0 +1,837 @@
+fileFormatVersion: 2
+guid: ecd41725968b0784caee2e2e3d867fd8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3225324588518873051
+    second: Tutorial Pistola_0
+  - first:
+      213: 5264626588446628899
+    second: Tutorial Pistola_1
+  - first:
+      213: -3553040880958028423
+    second: Tutorial Pistola_2
+  - first:
+      213: -6546203907173048554
+    second: Tutorial Pistola_3
+  - first:
+      213: 191696544759880214
+    second: Tutorial Pistola_4
+  - first:
+      213: 3319532169125533175
+    second: Tutorial Pistola_5
+  - first:
+      213: 4322594163840704369
+    second: Tutorial Pistola_6
+  - first:
+      213: 2408286887461652713
+    second: Tutorial Pistola_7
+  - first:
+      213: -7284438478828532231
+    second: Tutorial Pistola_8
+  - first:
+      213: 6508413270833134408
+    second: Tutorial Pistola_9
+  - first:
+      213: -3033953963682532052
+    second: Tutorial Pistola_10
+  - first:
+      213: -1038475491480047518
+    second: Tutorial Pistola_11
+  - first:
+      213: -7236824536410415905
+    second: Tutorial Pistola_12
+  - first:
+      213: 7328905885337554215
+    second: Tutorial Pistola_13
+  - first:
+      213: 4610405204430529233
+    second: Tutorial Pistola_14
+  - first:
+      213: 3405446540483220849
+    second: Tutorial Pistola_15
+  - first:
+      213: -9120829265585072948
+    second: Tutorial Pistola_16
+  - first:
+      213: 1227715030943552559
+    second: Tutorial Pistola_17
+  - first:
+      213: 4986071782155027986
+    second: Tutorial Pistola_18
+  - first:
+      213: 2493053443215668948
+    second: Tutorial Pistola_19
+  - first:
+      213: 3921100428723592693
+    second: Tutorial Pistola_20
+  - first:
+      213: 3571375915197059966
+    second: Tutorial Pistola_21
+  - first:
+      213: 9051738643776650131
+    second: Tutorial Pistola_22
+  - first:
+      213: -851256967665135694
+    second: Tutorial Pistola_23
+  - first:
+      213: -1731155292266218492
+    second: Tutorial Pistola_24
+  - first:
+      213: 6531423129695843635
+    second: Tutorial Pistola_25
+  - first:
+      213: 2048394800062422773
+    second: Tutorial Pistola_26
+  - first:
+      213: 5105256796107274120
+    second: Tutorial Pistola_27
+  - first:
+      213: -4639797740984473276
+    second: Tutorial Pistola_28
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tutorial Pistola_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 68
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd71000ff97a2cc20800000000000000
+      internalID: 3225324588518873051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 68
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c107f2df5bf0940800000000000000
+      internalID: 5264626588446628899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 67
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9754e02c42011bec0800000000000000
+      internalID: -3553040880958028423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 68
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f1dadca363725a0800000000000000
+      internalID: -6546203907173048554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_4
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 68
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a1517edfa09a200800000000000000
+      internalID: 191696544759880214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 67
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f595319be8511e20800000000000000
+      internalID: 3319532169125533175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 49
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17fd6eb6d70fcfb30800000000000000
+      internalID: 4322594163840704369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 35
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8026c1a24fb6120800000000000000
+      internalID: 2408286887461652713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_8
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 34
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd0d315cc978ea90800000000000000
+      internalID: -7284438478828532231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 35
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b72730367825a50800000000000000
+      internalID: 6508413270833134408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_10
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 35
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2570d1d1fa35e5d0800000000000000
+      internalID: -3033953963682532052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_11
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 34
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260f166ea089691f0800000000000000
+      internalID: -1038475491480047518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_12
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 35
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc1d6d2d62a19b90800000000000000
+      internalID: -7236824536410415905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_13
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 34
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d80df821185b560800000000000000
+      internalID: 7328905885337554215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_14
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 33
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2a1b04b137bff30800000000000000
+      internalID: 4610405204430529233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_15
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 34
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175d513f593924f20800000000000000
+      internalID: 3405446540483220849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_16
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 35
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc490df6b1e4c6180800000000000000
+      internalID: -9120829265585072948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 35
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f245cc0e058b90110800000000000000
+      internalID: 1227715030943552559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 35
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21603f75ed5123540800000000000000
+      internalID: 4986071782155027986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_19
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 35
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d63fe8d5ea199220800000000000000
+      internalID: 2493053443215668948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_20
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 35
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd93b6a01c8a6630800000000000000
+      internalID: 3921100428723592693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_21
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 33
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73d4b01973109130800000000000000
+      internalID: 3571375915197059966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_22
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 35
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bbbfd965c3e9d70800000000000000
+      internalID: 9051738643776650131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_23
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 34
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf4ebd4c4abf24f0800000000000000
+      internalID: -851256967665135694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 35
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c3f690f63b9f7e0800000000000000
+      internalID: -1731155292266218492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_25
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 35
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3357a434bb644aa50800000000000000
+      internalID: 6531423129695843635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_26
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 34
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe5a71c73c5d6c10800000000000000
+      internalID: 2048394800062422773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_27
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 35
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8877f1bd10489d640800000000000000
+      internalID: 5105256796107274120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Pistola_28
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 34
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449e5fa89802c9fb0800000000000000
+      internalID: -4639797740984473276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tutorial Pistola_0: 3225324588518873051
+      Tutorial Pistola_1: 5264626588446628899
+      Tutorial Pistola_10: -3033953963682532052
+      Tutorial Pistola_11: -1038475491480047518
+      Tutorial Pistola_12: -7236824536410415905
+      Tutorial Pistola_13: 7328905885337554215
+      Tutorial Pistola_14: 4610405204430529233
+      Tutorial Pistola_15: 3405446540483220849
+      Tutorial Pistola_16: -9120829265585072948
+      Tutorial Pistola_17: 1227715030943552559
+      Tutorial Pistola_18: 4986071782155027986
+      Tutorial Pistola_19: 2493053443215668948
+      Tutorial Pistola_2: -3553040880958028423
+      Tutorial Pistola_20: 3921100428723592693
+      Tutorial Pistola_21: 3571375915197059966
+      Tutorial Pistola_22: 9051738643776650131
+      Tutorial Pistola_23: -851256967665135694
+      Tutorial Pistola_24: -1731155292266218492
+      Tutorial Pistola_25: 6531423129695843635
+      Tutorial Pistola_26: 2048394800062422773
+      Tutorial Pistola_27: 5105256796107274120
+      Tutorial Pistola_28: -4639797740984473276
+      Tutorial Pistola_3: -6546203907173048554
+      Tutorial Pistola_4: 191696544759880214
+      Tutorial Pistola_5: 3319532169125533175
+      Tutorial Pistola_6: 4322594163840704369
+      Tutorial Pistola_7: 2408286887461652713
+      Tutorial Pistola_8: -7284438478828532231
+      Tutorial Pistola_9: 6508413270833134408
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

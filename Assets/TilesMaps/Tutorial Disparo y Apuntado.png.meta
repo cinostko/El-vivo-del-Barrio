@@ -1,0 +1,837 @@
+fileFormatVersion: 2
+guid: 5d34ca2133bd9b045b4457307053d2fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1717388290381835499
+    second: Tutorial Disparo y Apuntado_0
+  - first:
+      213: 6283865763545761262
+    second: Tutorial Disparo y Apuntado_1
+  - first:
+      213: -7645072992514701686
+    second: Tutorial Disparo y Apuntado_2
+  - first:
+      213: 8916785333283661474
+    second: Tutorial Disparo y Apuntado_3
+  - first:
+      213: 1852063263143139718
+    second: Tutorial Disparo y Apuntado_4
+  - first:
+      213: -1563695901710236973
+    second: Tutorial Disparo y Apuntado_5
+  - first:
+      213: -1332855398227309941
+    second: Tutorial Disparo y Apuntado_6
+  - first:
+      213: -266049699833702801
+    second: Tutorial Disparo y Apuntado_7
+  - first:
+      213: 3646669375626239691
+    second: Tutorial Disparo y Apuntado_8
+  - first:
+      213: 2119820153350312126
+    second: Tutorial Disparo y Apuntado_9
+  - first:
+      213: 347565131319975535
+    second: Tutorial Disparo y Apuntado_10
+  - first:
+      213: -7963599722984962424
+    second: Tutorial Disparo y Apuntado_11
+  - first:
+      213: 4883178378957431750
+    second: Tutorial Disparo y Apuntado_12
+  - first:
+      213: -796878778513663552
+    second: Tutorial Disparo y Apuntado_13
+  - first:
+      213: 2093100301831650054
+    second: Tutorial Disparo y Apuntado_14
+  - first:
+      213: -6766971640936774368
+    second: Tutorial Disparo y Apuntado_15
+  - first:
+      213: 2462995248065622488
+    second: Tutorial Disparo y Apuntado_16
+  - first:
+      213: -372143035447053446
+    second: Tutorial Disparo y Apuntado_17
+  - first:
+      213: 6073831312719352377
+    second: Tutorial Disparo y Apuntado_18
+  - first:
+      213: 2248087241363682650
+    second: Tutorial Disparo y Apuntado_19
+  - first:
+      213: -1405415816749967516
+    second: Tutorial Disparo y Apuntado_20
+  - first:
+      213: 4213378893045017307
+    second: Tutorial Disparo y Apuntado_21
+  - first:
+      213: 2030784384828476138
+    second: Tutorial Disparo y Apuntado_22
+  - first:
+      213: -3200442689318725368
+    second: Tutorial Disparo y Apuntado_23
+  - first:
+      213: -53346148334915761
+    second: Tutorial Disparo y Apuntado_24
+  - first:
+      213: -731664063591622804
+    second: Tutorial Disparo y Apuntado_25
+  - first:
+      213: -1013964583668243049
+    second: Tutorial Disparo y Apuntado_26
+  - first:
+      213: -2114495373123148628
+    second: Tutorial Disparo y Apuntado_27
+  - first:
+      213: 8270627765065243762
+    second: Tutorial Disparo y Apuntado_28
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 34
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: becef9d0d8365d710800000000000000
+      internalID: 1717388290381835499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 33
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5426c5e96c43750800000000000000
+      internalID: 6283865763545761262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 34
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a868a3f5e9e37e590800000000000000
+      internalID: -7645072992514701686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_3
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 34
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a629c87409cebb70800000000000000
+      internalID: 8916785333283661474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 30
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6899235a9b9d3b910800000000000000
+      internalID: 1852063263143139718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 20
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2c3d9bcd2ac4ae0800000000000000
+      internalID: -1563695901710236973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 20
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a03bbb31fb08de0800000000000000
+      internalID: -1332855398227309941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_7
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 19
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6610d4253dce4cf0800000000000000
+      internalID: -266049699833702801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 20
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce5f7be9729b9230800000000000000
+      internalID: 3646669375626239691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 19
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0d82cb23d1b6d10800000000000000
+      internalID: 2119820153350312126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_10
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 20
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e93ac35acc2d400800000000000000
+      internalID: 347565131319975535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_11
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 18
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8860512be3c9b7190800000000000000
+      internalID: -7963599722984962424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_12
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 19
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c320ac0dd884c340800000000000000
+      internalID: 4883178378957431750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_13
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 18
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c955a519fae0f4f0800000000000000
+      internalID: -796878778513663552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_14
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 19
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b30f182af2c0d10800000000000000
+      internalID: 2093100301831650054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_15
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 20
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02542d04523e612a0800000000000000
+      internalID: -6766971640936774368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_16
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 20
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d13d6ce0215e2220800000000000000
+      internalID: 2462995248065622488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_17
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 19
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73fa8681e1e5daf0800000000000000
+      internalID: -372143035447053446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_18
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 5
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932184cf5659a4450800000000000000
+      internalID: 6073831312719352377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_19
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 5
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55f1956f6fc23f10800000000000000
+      internalID: 2248087241363682650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_20
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 3
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46717e8c2c5fe7ce0800000000000000
+      internalID: -1405415816749967516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_21
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 5
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdaa310a7cde87a30800000000000000
+      internalID: 4213378893045017307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_22
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 4
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea8c1173abce2c10800000000000000
+      internalID: 2030784384828476138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_23
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 5
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809592ba45eb593d0800000000000000
+      internalID: -3200442689318725368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_24
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 4
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fac52f5f9724ff0800000000000000
+      internalID: -53346148334915761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_25
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 5
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67d3b2296b98d5f0800000000000000
+      internalID: -731664063591622804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_26
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 4
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795a0a7559cade1f0800000000000000
+      internalID: -1013964583668243049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_27
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 4
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4a9c549adc7a2e0800000000000000
+      internalID: -2114495373123148628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Disparo y Apuntado_28
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 0
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c5236f12c27c270800000000000000
+      internalID: 8270627765065243762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tutorial Disparo y Apuntado_0: 1717388290381835499
+      Tutorial Disparo y Apuntado_1: 6283865763545761262
+      Tutorial Disparo y Apuntado_10: 347565131319975535
+      Tutorial Disparo y Apuntado_11: -7963599722984962424
+      Tutorial Disparo y Apuntado_12: 4883178378957431750
+      Tutorial Disparo y Apuntado_13: -796878778513663552
+      Tutorial Disparo y Apuntado_14: 2093100301831650054
+      Tutorial Disparo y Apuntado_15: -6766971640936774368
+      Tutorial Disparo y Apuntado_16: 2462995248065622488
+      Tutorial Disparo y Apuntado_17: -372143035447053446
+      Tutorial Disparo y Apuntado_18: 6073831312719352377
+      Tutorial Disparo y Apuntado_19: 2248087241363682650
+      Tutorial Disparo y Apuntado_2: -7645072992514701686
+      Tutorial Disparo y Apuntado_20: -1405415816749967516
+      Tutorial Disparo y Apuntado_21: 4213378893045017307
+      Tutorial Disparo y Apuntado_22: 2030784384828476138
+      Tutorial Disparo y Apuntado_23: -3200442689318725368
+      Tutorial Disparo y Apuntado_24: -53346148334915761
+      Tutorial Disparo y Apuntado_25: -731664063591622804
+      Tutorial Disparo y Apuntado_26: -1013964583668243049
+      Tutorial Disparo y Apuntado_27: -2114495373123148628
+      Tutorial Disparo y Apuntado_28: 8270627765065243762
+      Tutorial Disparo y Apuntado_3: 8916785333283661474
+      Tutorial Disparo y Apuntado_4: 1852063263143139718
+      Tutorial Disparo y Apuntado_5: -1563695901710236973
+      Tutorial Disparo y Apuntado_6: -1332855398227309941
+      Tutorial Disparo y Apuntado_7: -266049699833702801
+      Tutorial Disparo y Apuntado_8: 3646669375626239691
+      Tutorial Disparo y Apuntado_9: 2119820153350312126
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

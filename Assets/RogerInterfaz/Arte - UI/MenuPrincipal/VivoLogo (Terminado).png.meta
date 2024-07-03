@@ -1,0 +1,537 @@
+fileFormatVersion: 2
+guid: 9df872419bd016940bac6c5a3b77d3a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2001366019991949116
+    second: VivoLogo (Terminado)_0
+  - first:
+      213: -465620903556977015
+    second: VivoLogo (Terminado)_1
+  - first:
+      213: 4812166266336662729
+    second: VivoLogo (Terminado)_2
+  - first:
+      213: 4552151954529137568
+    second: VivoLogo (Terminado)_3
+  - first:
+      213: -6002951840750698896
+    second: VivoLogo (Terminado)_4
+  - first:
+      213: -8372496162725606803
+    second: VivoLogo (Terminado)_5
+  - first:
+      213: 9153357524037445860
+    second: VivoLogo (Terminado)_6
+  - first:
+      213: 9082740408197694075
+    second: VivoLogo (Terminado)_7
+  - first:
+      213: -1915987906273331465
+    second: VivoLogo (Terminado)_8
+  - first:
+      213: 2086466205802462339
+    second: VivoLogo (Terminado)_9
+  - first:
+      213: 1905489241974692275
+    second: VivoLogo (Terminado)_10
+  - first:
+      213: -4922448048691819377
+    second: VivoLogo (Terminado)_11
+  - first:
+      213: 348540802545917778
+    second: VivoLogo (Terminado)_12
+  - first:
+      213: -3741216676844408890
+    second: VivoLogo (Terminado)_13
+  - first:
+      213: -5813981107818220599
+    second: VivoLogo (Terminado)_14
+  - first:
+      213: 5486745489411960673
+    second: VivoLogo (Terminado)_15
+  - first:
+      213: -4325748723105221067
+    second: VivoLogo (Terminado)_16
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VivoLogo (Terminado)_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 106
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0b7d06538b934e0800000000000000
+      internalID: -2001366019991949116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo (Terminado)_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 110
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e6d735148c989f0800000000000000
+      internalID: -465620903556977015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo (Terminado)_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 108
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c45d1929bf38c240800000000000000
+      internalID: 4812166266336662729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo (Terminado)_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 132
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a33f45951e7c2f30800000000000000
+      internalID: 4552151954529137568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo (Terminado)_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 109
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ef6481b1b31bca0800000000000000
+      internalID: -6002951840750698896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo (Terminado)_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a4b61791beecb80800000000000000
+      internalID: -8372496162725606803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo (Terminado)_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 116
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8a66aeb22470f70800000000000000
+      internalID: 9153357524037445860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo (Terminado)_7
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 78
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72c5b167406c0e70800000000000000
+      internalID: 9082740408197694075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo (Terminado)_8
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 81
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f632ac862b0965e0800000000000000
+      internalID: -1915987906273331465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo (Terminado)_9
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 83
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c76b8a5fd94fc10800000000000000
+      internalID: 2086466205802462339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo (Terminado)_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 34
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9da3fae58a17a10800000000000000
+      internalID: 1905489241974692275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo (Terminado)_11
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 25
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8cc8687493ffabb0800000000000000
+      internalID: -4922448048691819377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo (Terminado)_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 22
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f9a75630446d400800000000000000
+      internalID: 348540802545917778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo (Terminado)_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 22
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfebe41147841cc0800000000000000
+      internalID: -3741216676844408890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo (Terminado)_14
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 64
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3b9a97cf6905fa0800000000000000
+      internalID: -5813981107818220599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo (Terminado)_15
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 36
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f606dd3f5d42c40800000000000000
+      internalID: 5486745489411960673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VivoLogo (Terminado)_16
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 3
+        width: 31
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536b6b3847ad7f3c0800000000000000
+      internalID: -4325748723105221067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      VivoLogo (Terminado)_0: -2001366019991949116
+      VivoLogo (Terminado)_1: -465620903556977015
+      VivoLogo (Terminado)_10: 1905489241974692275
+      VivoLogo (Terminado)_11: -4922448048691819377
+      VivoLogo (Terminado)_12: 348540802545917778
+      VivoLogo (Terminado)_13: -3741216676844408890
+      VivoLogo (Terminado)_14: -5813981107818220599
+      VivoLogo (Terminado)_15: 5486745489411960673
+      VivoLogo (Terminado)_16: -4325748723105221067
+      VivoLogo (Terminado)_2: 4812166266336662729
+      VivoLogo (Terminado)_3: 4552151954529137568
+      VivoLogo (Terminado)_4: -6002951840750698896
+      VivoLogo (Terminado)_5: -8372496162725606803
+      VivoLogo (Terminado)_6: 9153357524037445860
+      VivoLogo (Terminado)_7: 9082740408197694075
+      VivoLogo (Terminado)_8: -1915987906273331465
+      VivoLogo (Terminado)_9: 2086466205802462339
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

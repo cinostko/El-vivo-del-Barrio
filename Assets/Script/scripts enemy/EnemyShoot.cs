@@ -6,7 +6,8 @@ public class EnemyShoot : MonoBehaviour
 {
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private float DistanciaDisparo;
-    public int municion;   
+    public int municion;
+    [SerializeField] private EnemyLife enemyLife;
         
     private Transform objetivoTransform;
     private float shootTimer;
@@ -14,6 +15,7 @@ public class EnemyShoot : MonoBehaviour
     private void Awake()
     {
         objetivoTransform = GameObject.Find("Player").transform;
+        enemyLife = GetComponent<EnemyLife>();
     }
 
 
@@ -23,7 +25,7 @@ public class EnemyShoot : MonoBehaviour
         
 
 
-            if (Vector2.Distance(objetivoTransform.position, transform.position) < DistanciaDisparo)
+            if (Vector2.Distance(objetivoTransform.position, transform.position) < DistanciaDisparo && enemyLife.life > 0)
             {
                 shootTimer += Time.deltaTime;
 

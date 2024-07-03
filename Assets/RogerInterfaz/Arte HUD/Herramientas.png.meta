@@ -1,16 +1,13 @@
 fileFormatVersion: 2
-guid: b5076dd30ad91774b9c89262d4384259
+guid: 39baddf7600a1df48b7ee02c35248bec
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8829963645889325423
-    second: Caja, Basura y Pistola (Menu)-Sheet_0
+      213: 3755939287583750399
+    second: Herramientas_0
   - first:
-      213: 1150401175966669775
-    second: Caja, Basura y Pistola (Menu)-Sheet_1
-  - first:
-      213: 6751428721585915997
-    second: Caja, Basura y Pistola (Menu)-Sheet_2
+      213: 8419257290460936486
+    second: Herramientas_1
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -57,7 +54,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 24
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -104,55 +101,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Caja, Basura y Pistola (Menu)-Sheet_0
+      name: Herramientas_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 2
-        width: 23
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1965723e8daa57580800000000000000
-      internalID: -8829963645889325423
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Caja, Basura y Pistola (Menu)-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 1
-        width: 26
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fcb5fa246cb07ff00800000000000000
-      internalID: 1150401175966669775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Caja, Basura y Pistola (Menu)-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 64
+        x: 0
         y: 0
-        width: 32
-        height: 28
+        width: 16
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +115,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d588f74d6a4e1bd50800000000000000
-      internalID: 6751428721585915997
+      spriteID: ff8fc5ad1e6cf1430800000000000000
+      internalID: 3755939287583750399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Herramientas_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629ba8606e537d470800000000000000
+      internalID: 8419257290460936486
       vertices: []
       indices: 
       edges: []
@@ -177,9 +153,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Caja, Basura y Pistola (Menu)-Sheet_0: -8829963645889325423
-      Caja, Basura y Pistola (Menu)-Sheet_1: 1150401175966669775
-      Caja, Basura y Pistola (Menu)-Sheet_2: 6751428721585915997
+      Herramientas_0: 3755939287583750399
+      Herramientas_1: 8419257290460936486
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

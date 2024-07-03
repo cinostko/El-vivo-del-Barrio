@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyLife : MonoBehaviour
 {
-    [SerializeField] private int life;
+    public int life;
     [SerializeField] GameObject EfectoKO;
     [SerializeField] EnemyMovement enemymovement;
     [SerializeField] Animator animator;

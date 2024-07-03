@@ -47,7 +47,7 @@ public class UIController : MonoBehaviour
 
     public void UpdateMunicion(int value)
     {
-        municiontext.text = $"Municion : {value}";
+        municiontext.text = $"{value}";
     }
 
     public void TiempoContador(int t, int minutos, int segundos)

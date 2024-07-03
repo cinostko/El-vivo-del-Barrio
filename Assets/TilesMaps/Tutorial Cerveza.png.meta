@@ -1,0 +1,912 @@
+fileFormatVersion: 2
+guid: b1f77791d5df86144afd2e595a7ea074
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4500938298237841682
+    second: Tutorial Cerveza_0
+  - first:
+      213: 6375636800165884143
+    second: Tutorial Cerveza_1
+  - first:
+      213: -7031162844866339503
+    second: Tutorial Cerveza_2
+  - first:
+      213: 150967916318788519
+    second: Tutorial Cerveza_3
+  - first:
+      213: -680630466839485349
+    second: Tutorial Cerveza_4
+  - first:
+      213: 2548607016948343159
+    second: Tutorial Cerveza_5
+  - first:
+      213: 1110369671090060867
+    second: Tutorial Cerveza_6
+  - first:
+      213: -5861685932063969553
+    second: Tutorial Cerveza_7
+  - first:
+      213: 2095104929064506819
+    second: Tutorial Cerveza_8
+  - first:
+      213: 5620597484035917955
+    second: Tutorial Cerveza_9
+  - first:
+      213: 7934512542569520762
+    second: Tutorial Cerveza_10
+  - first:
+      213: 7846116489169948143
+    second: Tutorial Cerveza_11
+  - first:
+      213: -3431708935622001245
+    second: Tutorial Cerveza_12
+  - first:
+      213: -3770684683326003858
+    second: Tutorial Cerveza_13
+  - first:
+      213: 8918167712215747019
+    second: Tutorial Cerveza_14
+  - first:
+      213: -3904685657797086018
+    second: Tutorial Cerveza_15
+  - first:
+      213: 1906102529027419896
+    second: Tutorial Cerveza_16
+  - first:
+      213: 7301626993266991033
+    second: Tutorial Cerveza_17
+  - first:
+      213: 424559198205637729
+    second: Tutorial Cerveza_18
+  - first:
+      213: 3200686041924894490
+    second: Tutorial Cerveza_19
+  - first:
+      213: -4772021801655568505
+    second: Tutorial Cerveza_20
+  - first:
+      213: 6029239907243749203
+    second: Tutorial Cerveza_21
+  - first:
+      213: -2988008381391566912
+    second: Tutorial Cerveza_22
+  - first:
+      213: 2480216102116707059
+    second: Tutorial Cerveza_23
+  - first:
+      213: -5622862546873192521
+    second: Tutorial Cerveza_24
+  - first:
+      213: -1843133075891771489
+    second: Tutorial Cerveza_25
+  - first:
+      213: -7488133878840564112
+    second: Tutorial Cerveza_26
+  - first:
+      213: 8010993750267979912
+    second: Tutorial Cerveza_27
+  - first:
+      213: 9174199927190878957
+    second: Tutorial Cerveza_28
+  - first:
+      213: 8546339227002786483
+    second: Tutorial Cerveza_29
+  - first:
+      213: -6033966384771986505
+    second: Tutorial Cerveza_30
+  - first:
+      213: 5496525727507861858
+    second: Tutorial Cerveza_31
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tutorial Cerveza_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 35
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211fa66098b867e30800000000000000
+      internalID: 4500938298237841682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 35
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0bbc2e3efca7850800000000000000
+      internalID: 6375636800165884143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 35
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d11d135aa4c6e90800000000000000
+      internalID: -7031162844866339503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 35
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab89a02588581200800000000000000
+      internalID: 150967916318788519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 34
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5469b0523aed86f0800000000000000
+      internalID: -680630466839485349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_5
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 35
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771264d24987e5320800000000000000
+      internalID: 2548607016948343159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_6
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 35
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34eb0b63553d86f00800000000000000
+      internalID: 1110369671090060867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 35
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee2c6a83bb17aea0800000000000000
+      internalID: -5861685932063969553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_8
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 34
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c55f0825de431d10800000000000000
+      internalID: 2095104929064506819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_9
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 35
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3884a6de1af500e40800000000000000
+      internalID: 5620597484035917955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_10
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 35
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7edcbd5e1d0d1e60800000000000000
+      internalID: 7934512542569520762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_11
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 35
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed4f4b506103ec60800000000000000
+      internalID: 7846116489169948143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_12
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 35
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad77bfa7ee1060d0800000000000000
+      internalID: -3431708935622001245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_13
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 19
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65e85a2246dbabc0800000000000000
+      internalID: -3770684683326003858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_14
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 18
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc94af5a842b3cb70800000000000000
+      internalID: 8918167712215747019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_15
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 18
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb431770515cfc9c0800000000000000
+      internalID: -3904685657797086018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_16
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 17
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe2724b626d37a10800000000000000
+      internalID: 1906102529027419896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_17
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf15109017945560800000000000000
+      internalID: 7301626993266991033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_18
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 19
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164fb23675654e500800000000000000
+      internalID: 424559198205637729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_19
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 19
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ffb764ffe1b6c20800000000000000
+      internalID: 3200686041924894490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 19
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78776e3647f56cdb0800000000000000
+      internalID: -4772021801655568505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_21
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 19
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f6fd850c92ca350800000000000000
+      internalID: 6029239907243749203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_22
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 19
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7044155367886d0800000000000000
+      internalID: -2988008381391566912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_23
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 19
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3faced4776f7b6220800000000000000
+      internalID: 2480216102116707059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_24
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 3
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf66c80e4497f1b0800000000000000
+      internalID: -5622862546873192521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_25
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97a2b99b30eb66e0800000000000000
+      internalID: -1843133075891771489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_26
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 3
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076e32939edc41890800000000000000
+      internalID: -7488133878840564112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_27
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 3
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888e89e2f54cc2f60800000000000000
+      internalID: 8010993750267979912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_28
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea70ae0a3e415f70800000000000000
+      internalID: 9174199927190878957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_29
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 3
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2dc7b1f32ba9670800000000000000
+      internalID: 8546339227002786483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_30
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb8409da8b034ca0800000000000000
+      internalID: -6033966384771986505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Cerveza_31
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 3
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261d6eef605974c40800000000000000
+      internalID: 5496525727507861858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tutorial Cerveza_0: 4500938298237841682
+      Tutorial Cerveza_1: 6375636800165884143
+      Tutorial Cerveza_10: 7934512542569520762
+      Tutorial Cerveza_11: 7846116489169948143
+      Tutorial Cerveza_12: -3431708935622001245
+      Tutorial Cerveza_13: -3770684683326003858
+      Tutorial Cerveza_14: 8918167712215747019
+      Tutorial Cerveza_15: -3904685657797086018
+      Tutorial Cerveza_16: 1906102529027419896
+      Tutorial Cerveza_17: 7301626993266991033
+      Tutorial Cerveza_18: 424559198205637729
+      Tutorial Cerveza_19: 3200686041924894490
+      Tutorial Cerveza_2: -7031162844866339503
+      Tutorial Cerveza_20: -4772021801655568505
+      Tutorial Cerveza_21: 6029239907243749203
+      Tutorial Cerveza_22: -2988008381391566912
+      Tutorial Cerveza_23: 2480216102116707059
+      Tutorial Cerveza_24: -5622862546873192521
+      Tutorial Cerveza_25: -1843133075891771489
+      Tutorial Cerveza_26: -7488133878840564112
+      Tutorial Cerveza_27: 8010993750267979912
+      Tutorial Cerveza_28: 9174199927190878957
+      Tutorial Cerveza_29: 8546339227002786483
+      Tutorial Cerveza_3: 150967916318788519
+      Tutorial Cerveza_30: -6033966384771986505
+      Tutorial Cerveza_31: 5496525727507861858
+      Tutorial Cerveza_4: -680630466839485349
+      Tutorial Cerveza_5: 2548607016948343159
+      Tutorial Cerveza_6: 1110369671090060867
+      Tutorial Cerveza_7: -5861685932063969553
+      Tutorial Cerveza_8: 2095104929064506819
+      Tutorial Cerveza_9: 5620597484035917955
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
