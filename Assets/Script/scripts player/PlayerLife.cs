@@ -10,6 +10,7 @@ public class PlayerLife : MonoBehaviour
     [SerializeField] private Animator animator;
     bool isDead;
     [SerializeField] GameObject EfectoKO;
+    [SerializeField] PlayerMovement playermovement;
     [SerializeField] private Animator Derrota;
 
     private void Awake()
@@ -17,6 +18,7 @@ public class PlayerLife : MonoBehaviour
         ragebar = GameObject.Find("Furia").GetComponent<RageBar>();
         animator = GetComponent<Animator>();
         EfectoKO.SetActive(false);
+        playermovement= GetComponent<PlayerMovement>();
     }
 
     private void Start()
@@ -42,6 +44,7 @@ public class PlayerLife : MonoBehaviour
                 //animator.SetBool("Muerto", true);
                 animator.SetTrigger("IsDead");
                 EfectoKO.SetActive(true);
+                playermovement.enabled = false;
                 Derrota.SetTrigger("ActivarDerrota");
             }
             else if (life > maxLife)
@@ -78,13 +81,13 @@ public class PlayerLife : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (life <= 0)
-        {
-            isDead = true;
-            animator.SetTrigger("IsDead");
-            //animator.SetBool("Muerto", true);
-            //Destroy(gameObject);
-        }
+        //if (life <= 0)
+        //{
+        //    isDead = true;
+        //    animator.SetTrigger("IsDead");
+        //    //animator.SetBool("Muerto", true);
+        //    //Destroy(gameObject);
+        //}
 
 
     }

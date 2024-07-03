@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,10 +69,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,10 +122,10 @@ TextureImporter:
       name: KO-Sheet (Enemigo)_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 13
-        width: 22
-        height: 41
+        x: 22
+        y: 14
+        width: 20
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,10 +143,10 @@ TextureImporter:
       name: KO-Sheet (Enemigo)_1
       rect:
         serializedVersion: 2
-        x: 85
-        y: 13
-        width: 22
-        height: 42
+        x: 86
+        y: 14
+        width: 20
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,10 +164,10 @@ TextureImporter:
       name: KO-Sheet (Enemigo)_2
       rect:
         serializedVersion: 2
-        x: 149
-        y: 13
-        width: 22
-        height: 42
+        x: 150
+        y: 14
+        width: 20
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,10 +185,10 @@ TextureImporter:
       name: KO-Sheet (Enemigo)_3
       rect:
         serializedVersion: 2
-        x: 211
-        y: 15
-        width: 26
-        height: 39
+        x: 212
+        y: 16
+        width: 24
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,10 +206,10 @@ TextureImporter:
       name: KO-Sheet (Enemigo)_4
       rect:
         serializedVersion: 2
-        x: 272
-        y: 14
-        width: 32
-        height: 37
+        x: 273
+        y: 15
+        width: 30
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,10 +227,10 @@ TextureImporter:
       name: KO-Sheet (Enemigo)_5
       rect:
         serializedVersion: 2
-        x: 339
-        y: 12
-        width: 26
-        height: 37
+        x: 340
+        y: 13
+        width: 24
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,10 +248,10 @@ TextureImporter:
       name: KO-Sheet (Enemigo)_6
       rect:
         serializedVersion: 2
-        x: 403
-        y: 12
-        width: 26
-        height: 36
+        x: 404
+        y: 13
+        width: 24
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +269,10 @@ TextureImporter:
       name: KO-Sheet (Enemigo)_7
       rect:
         serializedVersion: 2
-        x: 467
-        y: 12
-        width: 26
-        height: 37
+        x: 468
+        y: 13
+        width: 24
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,7 +289,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5c25f0024c9d0454ea64306696e23c1a
     internalID: 0
     vertices: []
     indices: 
