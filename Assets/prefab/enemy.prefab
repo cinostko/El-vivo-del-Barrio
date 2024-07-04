@@ -307,7 +307,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 598468515562453627, guid: 91fc56a45c2d53d4695c50a233f332e8, type: 3}
   DistanciaDisparo: 3.5
-  municion: 5
+  municion: 99
   enemyLife: {fileID: 0}
 --- !u!114 &6661239840850853003
 MonoBehaviour:
@@ -321,7 +321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3ba24f63ecb05e428fe390771ef7093, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 5
+  life: 3
   EfectoKO: {fileID: 5254195220917925017}
   enemymovement: {fileID: 0}
   animator: {fileID: 345432023416738641}

@@ -52,7 +52,7 @@ public class disparo : MonoBehaviour
     {
         if (collision.CompareTag("Municion"))
         {
-            municion += 1;
+            municion += 6;
             Destroy(collision.gameObject);
 
         }
