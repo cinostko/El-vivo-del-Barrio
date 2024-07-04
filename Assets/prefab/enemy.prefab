@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   seguimientoDistancia: 7.5
-  detenerDistancia: 3.5
+  detenerDistancia: 2.3
   ataqueMelee: 2
   speed: 5
   TiempoAlejandose: 3
@@ -306,7 +306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 598468515562453627, guid: 91fc56a45c2d53d4695c50a233f332e8, type: 3}
-  DistanciaDisparo: 3.5
+  DistanciaDisparo: 6.13
   municion: 99
   enemyLife: {fileID: 0}
 --- !u!114 &6661239840850853003

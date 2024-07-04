@@ -411,7 +411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08c80ece9b8b973478e03c77ca60c044, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 1
+  life: 20
   maxLife: 20
   animator: {fileID: 0}
   EfectoKO: {fileID: 6469919228108929717}
@@ -486,6 +486,7 @@ MonoBehaviour:
   - {fileID: 1976186742650318488, guid: 6688558bfdfe1874499bf77cfda38a8e, type: 3}
   - {fileID: 2932367502961008571, guid: 2d23a6b93be70b3419c63be9e50d4d80, type: 3}
   - {fileID: 1974246160471192590, guid: 805db209a5b84cd428022118f03abee7, type: 3}
+  - {fileID: 8954396529065746636, guid: f58f05e52ea44874e84037fe15922823, type: 3}
   shootposition: {fileID: 0}
   municion: 20
   velocidabala: 5

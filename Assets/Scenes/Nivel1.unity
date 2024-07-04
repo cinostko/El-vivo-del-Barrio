@@ -73513,33 +73513,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6178578533125968667, guid: 1def531932f4c594482f9f165143a1c4, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 8254441216722211390, guid: 1def531932f4c594482f9f165143a1c4, type: 3}
       propertyPath: m_Name
       value: Enemy (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8254441216722211390, guid: 1def531932f4c594482f9f165143a1c4, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8580886216771199284, guid: 1def531932f4c594482f9f165143a1c4, type: 3}
-      propertyPath: speed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8580886216771199284, guid: 1def531932f4c594482f9f165143a1c4, type: 3}
-      propertyPath: ataqueMelee
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8580886216771199284, guid: 1def531932f4c594482f9f165143a1c4, type: 3}
-      propertyPath: detenerDistancia
-      value: 2.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8580886216771199284, guid: 1def531932f4c594482f9f165143a1c4, type: 3}
-      propertyPath: seguimientoDistancia
-      value: 7.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

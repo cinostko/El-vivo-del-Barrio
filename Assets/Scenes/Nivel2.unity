@@ -54405,7 +54405,7 @@ Transform:
   m_GameObject: {fileID: 1209193455}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.12, y: -36.9, z: -10}
+  m_LocalPosition: {x: -31.2, y: -35.77, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -55471,7 +55471,7 @@ Transform:
   m_GameObject: {fileID: 1294681428}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.12, y: -36.9, z: -10}
+  m_LocalPosition: {x: -31.2, y: -35.77, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -57900,10 +57900,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1070389581846926190, guid: ea6f325f2a9479344b35a565d4527bb4, type: 3}
-      propertyPath: life
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 1070389581846926190, guid: ea6f325f2a9479344b35a565d4527bb4, type: 3}
       propertyPath: Derrota
       value: 
       objectReference: {fileID: 1847378003}
@@ -57917,11 +57913,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8825024873533523351, guid: ea6f325f2a9479344b35a565d4527bb4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -31.12
+      value: -31.2
       objectReference: {fileID: 0}
     - target: {fileID: 8825024873533523351, guid: ea6f325f2a9479344b35a565d4527bb4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -36.9
+      value: -35.77
       objectReference: {fileID: 0}
     - target: {fileID: 8825024873533523351, guid: ea6f325f2a9479344b35a565d4527bb4, type: 3}
       propertyPath: m_LocalPosition.z

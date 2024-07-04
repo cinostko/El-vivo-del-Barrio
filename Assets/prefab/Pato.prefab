@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &6819044114038666572
+--- !u!1001 &4950417388077806138
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -11,10 +11,22 @@ PrefabInstance:
     - target: {fileID: 1876755088427078851, guid: 9f0dcbfafd1e57c44a47512f97c0e348, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 9094567513643976547, guid: 364f1fdb771a4774e9d5006f7a787f69, type: 3}
+      objectReference: {fileID: -4159075461570220481, guid: 364f1fdb771a4774e9d5006f7a787f69, type: 3}
+    - target: {fileID: 1876755088427078851, guid: 9f0dcbfafd1e57c44a47512f97c0e348, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876755088427078851, guid: 9f0dcbfafd1e57c44a47512f97c0e348, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876755088427078851, guid: 9f0dcbfafd1e57c44a47512f97c0e348, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8294896266194861611, guid: 9f0dcbfafd1e57c44a47512f97c0e348, type: 3}
       propertyPath: m_Name
-      value: Palo
+      value: Pato
       objectReference: {fileID: 0}
     - target: {fileID: 9157124732593601146, guid: 9f0dcbfafd1e57c44a47512f97c0e348, type: 3}
       propertyPath: m_LocalPosition.x
