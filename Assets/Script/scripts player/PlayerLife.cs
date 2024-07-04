@@ -42,10 +42,7 @@ public class PlayerLife : MonoBehaviour
                 life = 0;
                 isDead = true;
                 //animator.SetBool("Muerto", true);
-                animator.SetTrigger("IsDead");
-                EfectoKO.SetActive(true);
-                playermovement.enabled = false;
-                Derrota.SetTrigger("ActivarDerrota");
+                
             }
             else if (life > maxLife)
             {
@@ -58,6 +55,13 @@ public class PlayerLife : MonoBehaviour
             //{
             //    Destroy(gameObject);
             //}
+            if (life <= 0)
+            {
+                animator.SetTrigger("IsDead");
+                EfectoKO.SetActive(true);
+                playermovement.enabled = false;
+                Derrota.SetTrigger("ActivarDerrota");
+            }
         }
     }
 

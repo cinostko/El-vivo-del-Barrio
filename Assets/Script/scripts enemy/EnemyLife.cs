@@ -20,7 +20,10 @@ public class EnemyLife : MonoBehaviour
     void VidaEnemigo(int valor)
     {
         life += valor;
-
+        if (life >0)
+        {
+            enemymovement.enabled = true;
+        }
         if(life <= 0)
         {
 
