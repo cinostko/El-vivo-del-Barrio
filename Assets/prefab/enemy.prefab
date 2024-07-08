@@ -156,7 +156,7 @@ GameObject:
   - component: {fileID: 1405816444901730012}
   - component: {fileID: 345432023416738641}
   m_Layer: 6
-  m_Name: Enemy
+  m_Name: enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -243,10 +243,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1311b048a818534c8d2dd70d3dca947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seguimientoDistancia: 7.5
-  detenerDistancia: 2.3
-  ataqueMelee: 2
-  speed: 5
+  seguimientoDistancia: 14.1
+  detenerDistancia: 9.77
+  ataqueMelee: 1.97
+  speed: 3.5
   TiempoAlejandose: 3
 --- !u!50 &6371532901372293239
 Rigidbody2D:
@@ -306,7 +306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 598468515562453627, guid: 91fc56a45c2d53d4695c50a233f332e8, type: 3}
-  DistanciaDisparo: 6.13
+  DistanciaDisparo: 10.5
   municion: 99
   enemyLife: {fileID: 0}
 --- !u!114 &6661239840850853003
