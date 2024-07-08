@@ -1,16 +1,25 @@
 fileFormatVersion: 2
-guid: cf64aa1fc9a3d1344beb70b8e574e13c
+guid: 17351e4d0506c914e9c8272241e6333a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6231559774958729498
-    second: Bala VFX-Sheet_0
+      213: 1602318352728236173
+    second: Recojer VFX-Sheet_0
   - first:
-      213: 1161493616913291486
-    second: Bala VFX-Sheet_1
+      213: 539540974171536426
+    second: Recojer VFX-Sheet_1
   - first:
-      213: -957038106243475726
-    second: Bala VFX-Sheet_2
+      213: -3183263685228713183
+    second: Recojer VFX-Sheet_2
+  - first:
+      213: -7600754893260313938
+    second: Recojer VFX-Sheet_3
+  - first:
+      213: 6373748412058071699
+    second: Recojer VFX-Sheet_4
+  - first:
+      213: 2359866930364452478
+    second: Recojer VFX-Sheet_5
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -43,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -54,10 +63,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -140,13 +149,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bala VFX-Sheet_0
+      name: Recojer VFX-Sheet_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
-        width: 23
-        height: 10
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a19370f5992fa7650800000000000000
-      internalID: 6231559774958729498
+      spriteID: d80a4776d049c3610800000000000000
+      internalID: 1602318352728236173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bala VFX-Sheet_1
+      name: Recojer VFX-Sheet_1
       rect:
         serializedVersion: 2
-        x: 34
+        x: 32
         y: 0
-        width: 29
-        height: 9
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed8100d6a447e1010800000000000000
-      internalID: 1161493616913291486
+      spriteID: a2c334b48a5dc7700800000000000000
+      internalID: 539540974171536426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bala VFX-Sheet_2
+      name: Recojer VFX-Sheet_2
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 147
-        height: 8
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,8 +205,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f658d8b9eae7b2f0800000000000000
-      internalID: -957038106243475726
+      spriteID: 12baa8f3b86c2d3d0800000000000000
+      internalID: -3183263685228713183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recojer VFX-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa2862f1b1b48690800000000000000
+      internalID: -7600754893260313938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recojer VFX-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3927e64496a147850800000000000000
+      internalID: 6373748412058071699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recojer VFX-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e8095587eefb020800000000000000
+      internalID: 2359866930364452478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recojer VFX-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a99ee04b24c14e4eb3ef8495edb222d
+      internalID: -470062122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recojer VFX-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6870f5ba8ba52b4ea2fa69d41c440dd
+      internalID: -1062096326
       vertices: []
       indices: 
       edges: []
@@ -205,7 +319,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 546a33cf4a931db4f9d3d2551c576288
     internalID: 0
     vertices: []
     indices: 
@@ -213,9 +327,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bala VFX-Sheet_0: 6231559774958729498
-      Bala VFX-Sheet_1: 1161493616913291486
-      Bala VFX-Sheet_2: -957038106243475726
+      Recojer VFX-Sheet_0: 1602318352728236173
+      Recojer VFX-Sheet_1: 539540974171536426
+      Recojer VFX-Sheet_2: -3183263685228713183
+      Recojer VFX-Sheet_3: -7600754893260313938
+      Recojer VFX-Sheet_4: 6373748412058071699
+      Recojer VFX-Sheet_5: 2359866930364452478
+      Recojer VFX-Sheet_6: -470062122
+      Recojer VFX-Sheet_7: -1062096326
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

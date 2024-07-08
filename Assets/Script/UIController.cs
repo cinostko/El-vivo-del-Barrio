@@ -10,7 +10,7 @@ public class UIController : MonoBehaviour
 {
     private static UIController instance;
     private static UIController instance2;
-    [SerializeField] private TextMeshProUGUI lifetext;
+    [SerializeField] private TextMeshProUGUI pistolatext;
     [SerializeField] private TextMeshProUGUI municiontext;
     [SerializeField] private Image lifeBarImage;
     [SerializeField] private Image furiaBarImage;
@@ -29,9 +29,10 @@ public class UIController : MonoBehaviour
     }
 
 
-    public void UpdateLifeText(int value)
+    public void ContadorPistolaText(int t, int minutos, int segundos)
     {
-        lifetext.text = $"Vida: {value}";
+        string format = "{0:00}:{1:00}";
+        pistolatext.SetText(string.Format(format, minutos, segundos));
         
     }
 

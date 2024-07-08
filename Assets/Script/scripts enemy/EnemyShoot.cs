@@ -8,6 +8,7 @@ public class EnemyShoot : MonoBehaviour
     [SerializeField] private float DistanciaDisparo;
     public int municion;
     [SerializeField] private EnemyLife enemyLife;
+    [SerializeField] private GameObject VFXBala;
         
     private Transform objetivoTransform;
     private float shootTimer;
@@ -16,6 +17,7 @@ public class EnemyShoot : MonoBehaviour
     {
         objetivoTransform = GameObject.Find("Player").transform;
         enemyLife = GetComponent<EnemyLife>();
+        VFXBala.SetActive(false);
     }
 
 
@@ -34,6 +36,8 @@ public class EnemyShoot : MonoBehaviour
                     Vector2 direccion = objetivoTransform.position - transform.position;
                     direccion = direccion.normalized;
                     GameObject obj = Instantiate(bulletPrefab);
+                    VFXBala.SetActive(true);
+                    Invoke("DetenerVFX", 1f);
                     obj.transform.position = transform.position;
                     obj.GetComponent<BulletMovement>().Direccion(direccion);
                     shootTimer = 0;
@@ -44,6 +48,10 @@ public class EnemyShoot : MonoBehaviour
         
     }
 
+    void DetenerVFX()
+    {
+        VFXBala.SetActive(false);
+    }
 
     private void OnDrawGizmos()
     {

@@ -13,6 +13,7 @@ public class PlayerLife : MonoBehaviour
     [SerializeField] PlayerMovement playermovement;
     [SerializeField] private Animator Derrota;
     [SerializeField] private Rigidbody2D rb2;
+    [SerializeField] private GameObject EfectoRecoger;
 
     private void Awake()
     {
@@ -21,12 +22,13 @@ public class PlayerLife : MonoBehaviour
         EfectoKO.SetActive(false);
         playermovement= GetComponent<PlayerMovement>();
         rb2 = GetComponent<Rigidbody2D>();
+        EfectoRecoger.SetActive(false); 
     }
 
     private void Start()
     {
         //PREGUNTAR COMO ESTA ESTATICA ESTA SIENDO INVOCADA
-        UIController.Instance.UpdateLifeText(life);
+        //UIController.Instance.UpdateLifeText(life);
         UIController.Instance.UpdateLifeBar(life, maxLife);
     }
 
@@ -52,7 +54,7 @@ public class PlayerLife : MonoBehaviour
             }
 
             UIController.Instance.UpdateLifeBar(life, maxLife);
-            UIController.Instance.UpdateLifeText(life);
+            //UIController.Instance.UpdateLifeText(life);
             //if (life <= 0)
             //{
             //    Destroy(gameObject);
@@ -74,6 +76,8 @@ public class PlayerLife : MonoBehaviour
         {
             Destroy(collision.gameObject);
             CambioVida(2);
+            EfectoRecoger.SetActive(true);
+            Invoke("ApagarRecoger", 0.5f);
         }
 
         if (collision.CompareTag("BalaEnemigo"))
@@ -82,6 +86,11 @@ public class PlayerLife : MonoBehaviour
             CambioVida(-1);
 
         }
+    }
+
+    void ApagarRecoger()
+    {
+        EfectoRecoger.SetActive(false);
     }
 
 

@@ -7,6 +7,8 @@ public class BulletMovement : MonoBehaviour
     private Vector2 direccion;
     private Rigidbody2D rb2d;
     [SerializeField] private float speed;
+    [SerializeField] private int VelocidaRotacion;
+    float z;
 
     private void Awake()
     {
@@ -38,7 +40,8 @@ public class BulletMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        z += Time.deltaTime * VelocidaRotacion;
+        transform.rotation = Quaternion.Euler(0, 0, z);
         Movimiento();
     }
 }

@@ -9,6 +9,7 @@ public class EnemyLife : MonoBehaviour
     [SerializeField] EnemyMovement enemymovement;
     [SerializeField] Animator animator;
     [SerializeField] Rigidbody2D rb2;
+    [SerializeField] GameObject VFXDetection;
 
 
     private void Awake()
@@ -34,6 +35,7 @@ public class EnemyLife : MonoBehaviour
             rb2.bodyType = RigidbodyType2D.Static;
             animator.SetTrigger("IsDead");            
             EfectoKO.SetActive(true);
+            Destroy(VFXDetection);
 
             //Destroy(gameObject);
         }

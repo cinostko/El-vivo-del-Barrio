@@ -9,6 +9,7 @@ public class Pistola : MonoBehaviour
     [SerializeField] private float timerShoot;
     [SerializeField] private Animator animator;
     [SerializeField] PlayerMovement playermovement;
+    [SerializeField] GameObject EfectoPistola;
 
     //[SerializeField] private int municion;
 
@@ -16,6 +17,7 @@ public class Pistola : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         playermovement = GetComponent<PlayerMovement>();
+        EfectoPistola.SetActive(false);
 
     }
 
@@ -24,6 +26,7 @@ public class Pistola : MonoBehaviour
     void Start()
     {
         timerShoot = 0;
+       
     }
 
     // Update is called once per frame
@@ -32,6 +35,12 @@ public class Pistola : MonoBehaviour
         AtaqueEspecial();
        
         Timer();
+        int t = (int)timerShoot;
+        int minutos = t / 60;
+        int segundos = t % 60;
+        UIController.Instance.ContadorPistolaText(t, minutos, segundos);
+
+
     }
 
     void Timer()
@@ -56,6 +65,7 @@ public class Pistola : MonoBehaviour
             {
                 playermovement.enabled = false;
                 animator.SetBool("IsShooting", true);
+                Invoke("ActivarVFX", 0.4f);
                 Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, Rango, CapaEnemigo);
                 foreach (Collider2D collider in colliders)
                 {
@@ -71,8 +81,14 @@ public class Pistola : MonoBehaviour
         if (timerShoot > 0 && timerShoot < 59)
         {
             animator.SetBool("IsShooting", false);
+            EfectoPistola.SetActive(false);
             playermovement.enabled = true;
         }
+    }
+
+    void ActivarVFX()
+    {
+        EfectoPistola.SetActive(true);
     }
 
     private void OnDrawGizmos()

@@ -15,6 +15,7 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private float TiempoAlejandose;
     private Animator animator;
     private bool isMoving;
+    [SerializeField] private GameObject VFXDetection;
 
 
 
@@ -31,6 +32,7 @@ public class EnemyMovement : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
         enemyShoot = GameObject.Find("Enemy").GetComponent<EnemyShoot>();
         animator = GetComponent<Animator>();
+        VFXDetection.SetActive(false);
     }
 
     private void Movimiento()
@@ -43,15 +45,17 @@ public class EnemyMovement : MonoBehaviour
 
         if (distancia < seguimientoDistancia && distancia > detenerDistancia)
         {
-            
+
             //direccion -= direccion.normalized;
             //direccion = direccion.normalized;
             rb2d.velocity = direccion * speed;
+            VFXDetection.SetActive(true);
+            Invoke("DetenerVFX", 1f);
             animator.SetBool("isMoving", true);
             //isMoving = direccion != Vector2.zero;
             //if (isMoving)
             //{
-            
+
             //}
 
         }
@@ -75,7 +79,7 @@ public class EnemyMovement : MonoBehaviour
             rb2d.velocity = Vector2.zero;
             animator.SetBool("isMoving", false);
         }
-       
+
     }
 
     void SetAnimation(Vector2 direccion)
@@ -85,6 +89,12 @@ public class EnemyMovement : MonoBehaviour
         animator.SetFloat("Y", direccion.y);
 
     }
+
+    void DetenerVFX()
+    {
+        VFXDetection.SetActive(false);
+    }
+
 
 
     // Update is called once per frame

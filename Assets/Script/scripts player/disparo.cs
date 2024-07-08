@@ -9,6 +9,8 @@ public class disparo : MonoBehaviour
     [SerializeField] private Transform shootposition;
     [SerializeField] private int municion;
     [SerializeField] int velocidabala;
+    [SerializeField] private GameObject EfectoRecoger;
+    [SerializeField] private GameObject VFXDisparo;
     private Camera cam;
     RageBar rageBar;
 
@@ -16,6 +18,8 @@ public class disparo : MonoBehaviour
     {
         shootposition = GetComponent<Transform>();
         rageBar = GameObject.Find("Furia").GetComponent<RageBar>();
+        EfectoRecoger.SetActive(false);
+        VFXDisparo.SetActive(false);
     }
 
     void Start()
@@ -35,6 +39,9 @@ public class disparo : MonoBehaviour
 
             proyectil proyectile = Instantiate(proyectilprefab[Random.Range(0,proyectilprefab.Length)], shootposition.position, transform.rotation);
             proyectile.launchProjectile(direction.normalized*velocidabala);
+            VFXDisparo.SetActive(true);
+            Invoke("ApagarVFXBala", 0.1f);
+
 
             if (!rageBar.isRaging)
             {
@@ -54,6 +61,8 @@ public class disparo : MonoBehaviour
         {
             municion += 6;
             Destroy(collision.gameObject);
+            EfectoRecoger.SetActive(true);
+            Invoke("ApagarRecoger", 0.5f);
 
         }
 
@@ -63,6 +72,15 @@ public class disparo : MonoBehaviour
             Destroy(collision.gameObject);
 
         }
+    }
+
+    void ApagarRecoger()
+    {
+        EfectoRecoger.SetActive(false);
+    }
+    void ApagarVFXBala()
+    {
+        VFXDisparo.SetActive(false);
     }
 
 
