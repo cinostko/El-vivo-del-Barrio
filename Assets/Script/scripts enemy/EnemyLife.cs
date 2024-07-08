@@ -31,7 +31,7 @@ public class EnemyLife : MonoBehaviour
 
             life = 0;
             enemymovement.enabled = false;
-            //rb2.bodyType = RigidbodyType2D.Static;
+            rb2.bodyType = RigidbodyType2D.Static;
             animator.SetTrigger("IsDead");            
             EfectoKO.SetActive(true);
 

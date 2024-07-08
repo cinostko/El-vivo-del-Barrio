@@ -12,6 +12,7 @@ public class PlayerLife : MonoBehaviour
     [SerializeField] GameObject EfectoKO;
     [SerializeField] PlayerMovement playermovement;
     [SerializeField] private Animator Derrota;
+    [SerializeField] private Rigidbody2D rb2;
 
     private void Awake()
     {
@@ -19,6 +20,7 @@ public class PlayerLife : MonoBehaviour
         animator = GetComponent<Animator>();
         EfectoKO.SetActive(false);
         playermovement= GetComponent<PlayerMovement>();
+        rb2 = GetComponent<Rigidbody2D>();
     }
 
     private void Start()
@@ -60,6 +62,7 @@ public class PlayerLife : MonoBehaviour
                 animator.SetTrigger("IsDead");
                 EfectoKO.SetActive(true);
                 playermovement.enabled = false;
+                rb2.bodyType = RigidbodyType2D.Static;
                 Derrota.SetTrigger("ActivarDerrota");
             }
         }
