@@ -8,6 +8,8 @@ public class proyectil : MonoBehaviour
 
     private float destroyDelay = 5f;
     private Rigidbody2D projectilrb;
+    private float Z;
+    [SerializeField] private int Rotacion;
 
     private void Awake()
     {
@@ -37,7 +39,11 @@ public class proyectil : MonoBehaviour
     }
 
 
-    
+    private void Update()
+    {
+        Z += Time.deltaTime * Rotacion;
+        transform.rotation = Quaternion.Euler(0,0,Z);
+    }
 
 
 

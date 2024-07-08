@@ -8,7 +8,7 @@ public class PlayerLife : MonoBehaviour
     [SerializeField] private int maxLife;
     RageBar ragebar;
     [SerializeField] private Animator animator;
-    bool isDead;
+    //bool isDead;
     [SerializeField] GameObject EfectoKO;
     [SerializeField] PlayerMovement playermovement;
     [SerializeField] private Animator Derrota;
@@ -42,7 +42,7 @@ public class PlayerLife : MonoBehaviour
             if (life < 0)
             {
                 life = 0;
-                isDead = true;
+                //isDead = true;
                 //animator.SetBool("Muerto", true);
                 
             }

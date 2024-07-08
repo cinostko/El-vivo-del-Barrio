@@ -26,7 +26,13 @@ public class BulletMovement : MonoBehaviour
         rb2d.velocity = direccion * speed;
     }
 
-
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Muro"))
+        {
+            Destroy(gameObject);
+        }
+    }
 
 
     // Update is called once per frame
