@@ -10,6 +10,7 @@ public class Pistola : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] PlayerMovement playermovement;
     [SerializeField] GameObject EfectoPistola;
+    [SerializeField] Rigidbody2D rb2;
 
     //[SerializeField] private int municion;
 
@@ -18,6 +19,7 @@ public class Pistola : MonoBehaviour
         animator = GetComponent<Animator>();
         playermovement = GetComponent<PlayerMovement>();
         EfectoPistola.SetActive(false);
+        rb2 = GetComponent<Rigidbody2D>();
 
     }
 
@@ -64,6 +66,7 @@ public class Pistola : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 playermovement.enabled = false;
+                rb2.bodyType = RigidbodyType2D.Static;
                 animator.SetBool("IsShooting", true);
                 Invoke("ActivarVFX", 0.4f);
                 Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, Rango, CapaEnemigo);
@@ -83,6 +86,7 @@ public class Pistola : MonoBehaviour
             animator.SetBool("IsShooting", false);
             EfectoPistola.SetActive(false);
             playermovement.enabled = true;
+            rb2.bodyType = RigidbodyType2D.Dynamic;
         }
     }
 
