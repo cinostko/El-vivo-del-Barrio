@@ -8,6 +8,7 @@ public class EnemyLife : MonoBehaviour
     [SerializeField] GameObject EfectoKO;
     [SerializeField] EnemyMovement enemymovement;
     [SerializeField] Animator animator;
+    [SerializeField] Rigidbody2D rb2;
 
 
     private void Awake()
@@ -15,6 +16,7 @@ public class EnemyLife : MonoBehaviour
 
         EfectoKO.SetActive(false);
         enemymovement = GetComponent<EnemyMovement>();
+        rb2 = GetComponent<Rigidbody2D>();
     }
 
     void VidaEnemigo(int valor)
@@ -29,8 +31,10 @@ public class EnemyLife : MonoBehaviour
 
             life = 0;
             enemymovement.enabled = false;
+            //rb2.bodyType = RigidbodyType2D.Static;
             animator.SetTrigger("IsDead");            
             EfectoKO.SetActive(true);
+
             //Destroy(gameObject);
         }
     }

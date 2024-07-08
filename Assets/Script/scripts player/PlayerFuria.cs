@@ -26,7 +26,7 @@ public class PlayerFuria : MonoBehaviour
             furia = maxFuria;
         }
 
-        UIController.Instance.UpdateFuriaBar(furia, maxFuria);
+        //UIController.Instance.UpdateFuriaBar(furia, maxFuria);
         
         
     }
