@@ -165,6 +165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1.75
   Rotacion: 450
+  ParticleSystem: {fileID: 4790974613731777209, guid: 164f9f6f413908c479b4b59112893aff, type: 3}
 --- !u!114 &6769540457498347415
 MonoBehaviour:
   m_ObjectHideFlags: 0

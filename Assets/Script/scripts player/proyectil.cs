@@ -10,6 +10,7 @@ public class proyectil : MonoBehaviour
     private Rigidbody2D projectilrb;
     private float Z;
     [SerializeField] private int Rotacion;
+    [SerializeField] ParticleSystem ParticleSystem;
 
     private void Awake()
     {
@@ -32,8 +33,9 @@ public class proyectil : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Muro"))
+        if (collision.CompareTag("Muro") || collision.CompareTag("Enemy"))
         {
+            Instantiate(ParticleSystem, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

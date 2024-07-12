@@ -35,6 +35,10 @@ public class EnemyMovement : MonoBehaviour
         VFXDetection.SetActive(false);
     }
 
+    private void OnDestroy()
+    {
+        CancelInvoke();
+    }
     private void Movimiento()
     {
         float distancia = Vector2.Distance(objetivoTransform.position, transform.position); // distancia dara flloat

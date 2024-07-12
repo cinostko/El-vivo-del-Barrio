@@ -20,6 +20,6 @@ public class Pointer : MonoBehaviour
         bool isPressing = Input.GetMouseButton(1);
 
         int index = _index % _animated.Length;
-        Cursor.SetCursor(isPressing ? _animated[index] : _normal, Vector2.zero, CursorMode.Auto);
+        Cursor.SetCursor(isPressing ? _animated[index] : _normal, Vector2.zero, CursorMode.ForceSoftware);
     }
 }

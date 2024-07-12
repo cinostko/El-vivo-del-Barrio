@@ -102,6 +102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 8.8
   VelocidaRotacion: 350
+  ParticleSystem: {fileID: 3581026156514507285, guid: 9495a7f1d94e117438acbaeeb8178575, type: 3}
 --- !u!50 &-3846094468446480551
 Rigidbody2D:
   serializedVersion: 4

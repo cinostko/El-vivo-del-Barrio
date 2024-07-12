@@ -9,6 +9,7 @@ public class BulletMovement : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private int VelocidaRotacion;
     float z;
+    [SerializeField] private ParticleSystem ParticleSystem;
 
     private void Awake()
     {
@@ -30,10 +31,12 @@ public class BulletMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Muro"))
+        if (collision.CompareTag("Muro") || collision.CompareTag("Player"))
         {
+            Instantiate(ParticleSystem,transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
+        
     }
 
 

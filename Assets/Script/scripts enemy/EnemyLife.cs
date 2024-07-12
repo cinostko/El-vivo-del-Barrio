@@ -11,6 +11,10 @@ public class EnemyLife : MonoBehaviour
     [SerializeField] Rigidbody2D rb2;
     [SerializeField] GameObject VFXDetection;
 
+    [SerializeField, Range(0, 10)] private float _speed;
+    [SerializeField] private Gradient _gradient;
+    private SpriteRenderer _render;
+    private float time = -1;
 
     private void Awake()
     {
@@ -18,6 +22,7 @@ public class EnemyLife : MonoBehaviour
         EfectoKO.SetActive(false);
         enemymovement = GetComponent<EnemyMovement>();
         rb2 = GetComponent<Rigidbody2D>();
+        _render = GetComponent<SpriteRenderer>();
     }
 
     void VidaEnemigo(int valor)
@@ -49,6 +54,7 @@ public class EnemyLife : MonoBehaviour
         {
             Destroy(collision.gameObject);
             VidaEnemigo(-1);
+            time = 0;
         }
     }
 
@@ -58,6 +64,11 @@ public class EnemyLife : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (time < 0) return;
+        time = Mathf.Clamp01(time += Time.deltaTime * _speed);
+        _render.color = _gradient.Evaluate(time);
+        if (time == 1) time = -1;
     }
+
+
 }

@@ -15,6 +15,11 @@ public class PlayerLife : MonoBehaviour
     [SerializeField] private Rigidbody2D rb2;
     [SerializeField] private GameObject EfectoRecoger;
 
+    [SerializeField, Range(0, 10)] private float _speed;
+    [SerializeField] private Gradient _gradient;
+    private SpriteRenderer _render;
+    private float time = -1;
+
     private void Awake()
     {
         ragebar = GameObject.Find("Furia").GetComponent<RageBar>();
@@ -23,6 +28,7 @@ public class PlayerLife : MonoBehaviour
         playermovement= GetComponent<PlayerMovement>();
         rb2 = GetComponent<Rigidbody2D>();
         EfectoRecoger.SetActive(false); 
+        _render = GetComponent<SpriteRenderer>();
     }
 
     private void Start()
@@ -84,6 +90,7 @@ public class PlayerLife : MonoBehaviour
         {
             Destroy(collision.gameObject);
             CambioVida(-1);
+            time = 0;
 
         }
     }
@@ -97,14 +104,11 @@ public class PlayerLife : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (life <= 0)
-        //{
-        //    isDead = true;
-        //    animator.SetTrigger("IsDead");
-        //    //animator.SetBool("Muerto", true);
-        //    //Destroy(gameObject);
-        //}
 
+        if (time < 0) return;
+        time = Mathf.Clamp01(time += Time.deltaTime * _speed);
+        _render.color = _gradient.Evaluate(time);
+        if (time == 1) time = -1;
 
     }
 }
